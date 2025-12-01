@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security reports
+    url: https://github.com/JeetMajumdar2003/DSA/security/advisories/new
+    about: Please use the security advisory form for vulnerabilities.

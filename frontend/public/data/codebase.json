@@ -1,0 +1,4826 @@
+{
+  "summary": {
+    "generatedAt": "2025-12-01T21:32:43.479Z",
+    "totals": {
+      "files": 415,
+      "directories": 89,
+      "lectures": 85
+    },
+    "depth": 2,
+    "coverageByTheme": {
+      "fundamentals": 48,
+      "recursion": 8,
+      "sort": 8,
+      "search": 6,
+      "oops": 1,
+      "stack": 3,
+      "queue": 3,
+      "tree": 1,
+      "greedy": 2,
+      "dp": 5,
+      "graph": 1
+    },
+    "lectureRange": {
+      "first": {
+        "id": 3,
+        "title": "Variables",
+        "slug": "lec-3",
+        "path": "data/LEC-3(Variables)",
+        "itemCount": 4
+      },
+      "last": {
+        "id": 86,
+        "title": "Dijkstra's Algorithm",
+        "slug": "lec-86",
+        "path": "data/LEC-86(Dijkstra's Algorithm)",
+        "itemCount": 4
+      }
+    },
+    "lectures": [
+      {
+        "id": 3,
+        "title": "Variables",
+        "slug": "lec-3",
+        "path": "data/LEC-3(Variables)",
+        "itemCount": 4,
+        "keywords": [
+          "variables"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Operators",
+        "slug": "lec-4",
+        "path": "data/LEC-4(Operators)",
+        "itemCount": 8,
+        "keywords": [
+          "operators"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Conditionals",
+        "slug": "lec-5",
+        "path": "data/LEC-5(Conditionals)",
+        "itemCount": 11,
+        "keywords": [
+          "conditionals"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Loops",
+        "slug": "lec-6",
+        "path": "data/LEC-6(Loops)",
+        "itemCount": 11,
+        "keywords": [
+          "loops"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Patterns part=1",
+        "slug": "lec-7",
+        "path": "data/LEC-7(Patterns part=1)",
+        "itemCount": 13,
+        "keywords": [
+          "patterns",
+          "part",
+          "1"
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Patterns Part=2",
+        "slug": "lec-8",
+        "path": "data/LEC-8(Patterns Part=2)",
+        "itemCount": 6,
+        "keywords": [
+          "patterns",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Number System",
+        "slug": "lec-9",
+        "path": "data/LEC-9(Number System)",
+        "itemCount": 2,
+        "keywords": [
+          "number",
+          "system"
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Functions",
+        "slug": "lec-10",
+        "path": "data/LEC-10(Functions)",
+        "itemCount": 5,
+        "keywords": [
+          "functions"
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Functions Part-2",
+        "slug": "lec-11",
+        "path": "data/LEC-11(Functions Part-2)",
+        "itemCount": 6,
+        "keywords": [
+          "functions",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Arrays",
+        "slug": "lec-12",
+        "path": "data/LEC-12(Arrays)",
+        "itemCount": 7,
+        "keywords": [
+          "arrays"
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Arrays Part-2 VECTOR",
+        "slug": "lec-13",
+        "path": "data/LEC-13(Arrays Part-2 VECTOR)",
+        "itemCount": 10,
+        "keywords": [
+          "arrays",
+          "part",
+          "2",
+          "vector"
+        ]
+      },
+      {
+        "id": 14,
+        "title": "Problems on Arrays Part-1",
+        "slug": "lec-14",
+        "path": "data/LEC-14(Problems on Arrays Part-1)",
+        "itemCount": 6,
+        "keywords": [
+          "problems",
+          "on",
+          "arrays",
+          "part",
+          "1"
+        ]
+      },
+      {
+        "id": 15,
+        "title": "Problems on Arrays Part-2",
+        "slug": "lec-15",
+        "path": "data/LEC-15(Problems on Arrays Part-2)",
+        "itemCount": 3,
+        "keywords": [
+          "problems",
+          "on",
+          "arrays",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 16,
+        "title": "Problems on Arrays Part-3",
+        "slug": "lec-16",
+        "path": "data/LEC-16(Problems on Arrays Part-3)",
+        "itemCount": 4,
+        "keywords": [
+          "problems",
+          "on",
+          "arrays",
+          "part",
+          "3"
+        ]
+      },
+      {
+        "id": 17,
+        "title": "2D ARRAY Part-1",
+        "slug": "lec-17",
+        "path": "data/LEC-17(2D ARRAY Part-1)",
+        "itemCount": 3,
+        "keywords": [
+          "2d",
+          "array",
+          "part",
+          "1"
+        ]
+      },
+      {
+        "id": 18,
+        "title": "Problens on 2D Arrays Part-2",
+        "slug": "lec-18",
+        "path": "data/LEC-18(Problens on 2D Arrays Part-2)",
+        "itemCount": 3,
+        "keywords": [
+          "problens",
+          "on",
+          "2d",
+          "arrays",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 19,
+        "title": "Problens on 2D Arrays Part-3",
+        "slug": "lec-19",
+        "path": "data/LEC-19(Problens on 2D Arrays Part-3)",
+        "itemCount": 2,
+        "keywords": [
+          "problens",
+          "on",
+          "2d",
+          "arrays",
+          "part",
+          "3"
+        ]
+      },
+      {
+        "id": 20,
+        "title": "Problens on 2D Arrays Part-4",
+        "slug": "lec-20",
+        "path": "data/LEC-20(Problens on 2D Arrays Part-4)",
+        "itemCount": 2,
+        "keywords": [
+          "problens",
+          "on",
+          "2d",
+          "arrays",
+          "part",
+          "4"
+        ]
+      },
+      {
+        "id": 21,
+        "title": "Problens on 2D Arrays Part-5",
+        "slug": "lec-21",
+        "path": "data/LEC-21(Problens on 2D Arrays Part-5)",
+        "itemCount": 1,
+        "keywords": [
+          "problens",
+          "on",
+          "2d",
+          "arrays",
+          "part",
+          "5"
+        ]
+      },
+      {
+        "id": 22,
+        "title": "Time Space Complexity - Big O Notation",
+        "slug": "lec-22",
+        "path": "data/LEC-22(Time Space Complexity - Big O Notation)",
+        "itemCount": 8,
+        "keywords": [
+          "time",
+          "space",
+          "complexity",
+          "big",
+          "o",
+          "notation"
+        ]
+      },
+      {
+        "id": 23,
+        "title": "Time and Space Complexity",
+        "slug": "lec-23",
+        "path": "data/LEC-23(Time and Space Complexity)",
+        "itemCount": 5,
+        "keywords": [
+          "time",
+          "and",
+          "space",
+          "complexity"
+        ]
+      },
+      {
+        "id": 24,
+        "title": "Pointers Part-1",
+        "slug": "lec-24",
+        "path": "data/LEC-24(Pointers Part-1)",
+        "itemCount": 8,
+        "keywords": [
+          "pointers",
+          "part",
+          "1"
+        ]
+      },
+      {
+        "id": 25,
+        "title": "Pointers Part-2",
+        "slug": "lec-25",
+        "path": "data/LEC-25(Pointers Part-2)",
+        "itemCount": 11,
+        "keywords": [
+          "pointers",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 26,
+        "title": "Pointers Part-3",
+        "slug": "lec-26",
+        "path": "data/LEC-26(Pointers Part-3)",
+        "itemCount": 4,
+        "keywords": [
+          "pointers",
+          "part",
+          "3"
+        ]
+      },
+      {
+        "id": 27,
+        "title": "Recursion",
+        "slug": "lec-27",
+        "path": "data/LEC-27(Recursion))",
+        "itemCount": 1,
+        "keywords": [
+          "recursion"
+        ]
+      },
+      {
+        "id": 28,
+        "title": "Problems on Recursion Part-1",
+        "slug": "lec-28",
+        "path": "data/LEC-28(Problems on Recursion Part-1)",
+        "itemCount": 2,
+        "keywords": [
+          "problems",
+          "on",
+          "recursion",
+          "part",
+          "1"
+        ]
+      },
+      {
+        "id": 29,
+        "title": "Problems on Recursion Part-2",
+        "slug": "lec-29",
+        "path": "data/LEC-29(Problems on Recursion Part-2)",
+        "itemCount": 3,
+        "keywords": [
+          "problems",
+          "on",
+          "recursion",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 30,
+        "title": "Problems on Recursion Part-3",
+        "slug": "lec-30",
+        "path": "data/LEC-30(Problems on Recursion Part-3)",
+        "itemCount": 2,
+        "keywords": [
+          "problems",
+          "on",
+          "recursion",
+          "part",
+          "3"
+        ]
+      },
+      {
+        "id": 31,
+        "title": "Problems on Recursion Part-4",
+        "slug": "lec-31",
+        "path": "data/LEC-31(Problems on Recursion Part-4)",
+        "itemCount": 3,
+        "keywords": [
+          "problems",
+          "on",
+          "recursion",
+          "part",
+          "4"
+        ]
+      },
+      {
+        "id": 32,
+        "title": "Problems on Recursion Part-5",
+        "slug": "lec-32",
+        "path": "data/LEC-32(Problems on Recursion Part-5)",
+        "itemCount": 3,
+        "keywords": [
+          "problems",
+          "on",
+          "recursion",
+          "part",
+          "5"
+        ]
+      },
+      {
+        "id": 33,
+        "title": "Problems on Recursion Part-6",
+        "slug": "lec-33",
+        "path": "data/LEC-33(Problems on Recursion Part-6)",
+        "itemCount": 3,
+        "keywords": [
+          "problems",
+          "on",
+          "recursion",
+          "part",
+          "6"
+        ]
+      },
+      {
+        "id": 34,
+        "title": "Problems on Recursion Part-7",
+        "slug": "lec-34",
+        "path": "data/LEC-34(Problems on Recursion Part-7)",
+        "itemCount": 2,
+        "keywords": [
+          "problems",
+          "on",
+          "recursion",
+          "part",
+          "7"
+        ]
+      },
+      {
+        "id": 35,
+        "title": "Bubble Sort",
+        "slug": "lec-35",
+        "path": "data/LEC-35(Bubble Sort)",
+        "itemCount": 2,
+        "keywords": [
+          "bubble",
+          "sort"
+        ]
+      },
+      {
+        "id": 36,
+        "title": "Selection Sort",
+        "slug": "lec-36",
+        "path": "data/LEC-36(Selection Sort)",
+        "itemCount": 1,
+        "keywords": [
+          "selection",
+          "sort"
+        ]
+      },
+      {
+        "id": 37,
+        "title": "Insertion Sort",
+        "slug": "lec-37",
+        "path": "data/LEC-37(Insertion Sort)",
+        "itemCount": 1,
+        "keywords": [
+          "insertion",
+          "sort"
+        ]
+      },
+      {
+        "id": 38,
+        "title": "Problems on Sorting Algorithm Part-1",
+        "slug": "lec-38",
+        "path": "data/LEC-38(Problems on Sorting Algorithm Part-1",
+        "itemCount": 2,
+        "keywords": [
+          "problems",
+          "on",
+          "sorting",
+          "algorithm",
+          "part",
+          "1"
+        ]
+      },
+      {
+        "id": 39,
+        "title": "Merge Sort",
+        "slug": "lec-39",
+        "path": "data/LEC-39(Merge Sort)",
+        "itemCount": 1,
+        "keywords": [
+          "merge",
+          "sort"
+        ]
+      },
+      {
+        "id": 40,
+        "title": "Quick Sort",
+        "slug": "lec-40",
+        "path": "data/LEC-40(Quick Sort)",
+        "itemCount": 1,
+        "keywords": [
+          "quick",
+          "sort"
+        ]
+      },
+      {
+        "id": 41,
+        "title": "1(Count Sort & Radix Sort",
+        "slug": "lec-41",
+        "path": "data/LEC-41-1(Count Sort & Radix Sort)",
+        "itemCount": 2,
+        "keywords": [
+          "1",
+          "count",
+          "sort",
+          "radix",
+          "sort"
+        ]
+      },
+      {
+        "id": 41,
+        "title": "2(Bucket Sort",
+        "slug": "lec-41",
+        "path": "data/LEC-41-2(Bucket Sort)",
+        "itemCount": 3,
+        "keywords": [
+          "2",
+          "bucket",
+          "sort"
+        ]
+      },
+      {
+        "id": 42,
+        "title": "Problems on Sorting Algorithm Part-2",
+        "slug": "lec-42",
+        "path": "data/LEC-42(Problems on Sorting Algorithm Part-2)",
+        "itemCount": 3,
+        "keywords": [
+          "problems",
+          "on",
+          "sorting",
+          "algorithm",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 43,
+        "title": "Problems on Sorting Algorithm Part-3",
+        "slug": "lec-43",
+        "path": "data/LEC-43(Problems on Sorting Algorithm Part-3)",
+        "itemCount": 1,
+        "keywords": [
+          "problems",
+          "on",
+          "sorting",
+          "algorithm",
+          "part",
+          "3"
+        ]
+      },
+      {
+        "id": 44,
+        "title": "Binary Search",
+        "slug": "lec-44",
+        "path": "data/LEC-44(Binary Search)",
+        "itemCount": 4,
+        "keywords": [
+          "binary",
+          "search"
+        ]
+      },
+      {
+        "id": 45,
+        "title": "Problems on Binary Search Part-1",
+        "slug": "lec-45",
+        "path": "data/LEC-45(Problems on Binary Search Part-1)",
+        "itemCount": 5,
+        "keywords": [
+          "problems",
+          "on",
+          "binary",
+          "search",
+          "part",
+          "1"
+        ]
+      },
+      {
+        "id": 46,
+        "title": "Problems on Binary Search Part-2",
+        "slug": "lec-46",
+        "path": "data/LEC-46(Problems on Binary Search Part-2)",
+        "itemCount": 3,
+        "keywords": [
+          "problems",
+          "on",
+          "binary",
+          "search",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 47,
+        "title": "Problems on Binary Search Part-3",
+        "slug": "lec-47",
+        "path": "data/LEC-47(Problems on Binary Search Part-3)",
+        "itemCount": 2,
+        "keywords": [
+          "problems",
+          "on",
+          "binary",
+          "search",
+          "part",
+          "3"
+        ]
+      },
+      {
+        "id": 48,
+        "title": "Strings in C++ One Shot",
+        "slug": "lec-48",
+        "path": "data/LEC-48(Strings in C++ One Shot)",
+        "itemCount": 8,
+        "keywords": [
+          "strings",
+          "in",
+          "c",
+          "one",
+          "shot"
+        ]
+      },
+      {
+        "id": 49,
+        "title": "OOPs One Shot",
+        "slug": "lec-49",
+        "path": "data/LEC-49(OOPs One Shot)",
+        "itemCount": 12,
+        "keywords": [
+          "oops",
+          "one",
+          "shot"
+        ]
+      },
+      {
+        "id": 50,
+        "title": "Linked List Part-1",
+        "slug": "lec-50",
+        "path": "data/LEC-50(Linked List Part-1)",
+        "itemCount": 5,
+        "keywords": [
+          "linked",
+          "list",
+          "part",
+          "1"
+        ]
+      },
+      {
+        "id": 51,
+        "title": "Linked List Part-2",
+        "slug": "lec-51",
+        "path": "data/LEC-51(Linked List Part-2)",
+        "itemCount": 13,
+        "keywords": [
+          "linked",
+          "list",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 52,
+        "title": "Linked List Part-3) Doubly LinkedList",
+        "slug": "lec-52",
+        "path": "data/LEC-52(Linked List Part-3) Doubly LinkedList",
+        "itemCount": 7,
+        "keywords": [
+          "linked",
+          "list",
+          "part",
+          "3",
+          "doubly",
+          "linkedlist"
+        ]
+      },
+      {
+        "id": 53,
+        "title": "Linked List Part-4) Circular LinkedList and STL List",
+        "slug": "lec-53",
+        "path": "data/LEC-53(Linked List Part-4) Circular LinkedList and STL List",
+        "itemCount": 3,
+        "keywords": [
+          "linked",
+          "list",
+          "part",
+          "4",
+          "circular",
+          "linkedlist",
+          "and",
+          "stl",
+          "list"
+        ]
+      },
+      {
+        "id": 54,
+        "title": "Stack",
+        "slug": "lec-54",
+        "path": "data/LEC-54(Stack)",
+        "itemCount": 9,
+        "keywords": [
+          "stack"
+        ]
+      },
+      {
+        "id": 55,
+        "title": "Problems on Stack Part-1",
+        "slug": "lec-55",
+        "path": "data/LEC-55(Problems on Stack Part-1)",
+        "itemCount": 6,
+        "keywords": [
+          "problems",
+          "on",
+          "stack",
+          "part",
+          "1"
+        ]
+      },
+      {
+        "id": 56,
+        "title": "Problems on Stack Part-2",
+        "slug": "lec-56",
+        "path": "data/LEC-56(Problems on Stack Part-2)",
+        "itemCount": 7,
+        "keywords": [
+          "problems",
+          "on",
+          "stack",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 57,
+        "title": "Queue",
+        "slug": "lec-57",
+        "path": "data/LEC-57(Queue)",
+        "itemCount": 4,
+        "keywords": [
+          "queue"
+        ]
+      },
+      {
+        "id": 58,
+        "title": "Queue Part-2",
+        "slug": "lec-58",
+        "path": "data/LEC-58(Queue Part-2)",
+        "itemCount": 5,
+        "keywords": [
+          "queue",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 59,
+        "title": "SET",
+        "slug": "lec-59",
+        "path": "data/LEC-59(SET)",
+        "itemCount": 10,
+        "keywords": [
+          "set"
+        ]
+      },
+      {
+        "id": 60,
+        "title": "Hashing",
+        "slug": "lec-60",
+        "path": "data/LEC-60(Hashing)",
+        "itemCount": 1,
+        "keywords": [
+          "hashing"
+        ]
+      },
+      {
+        "id": 61,
+        "title": "Hashmap",
+        "slug": "lec-61",
+        "path": "data/LEC-61(Hashmap)",
+        "itemCount": 6,
+        "keywords": [
+          "hashmap"
+        ]
+      },
+      {
+        "id": 62,
+        "title": "Problems on Hashmap",
+        "slug": "lec-62",
+        "path": "data/LEC-62(Problems on Hashmap)",
+        "itemCount": 5,
+        "keywords": [
+          "problems",
+          "on",
+          "hashmap"
+        ]
+      },
+      {
+        "id": 63,
+        "title": "Backtracking",
+        "slug": "lec-63",
+        "path": "data/LEC-63(Backtracking)",
+        "itemCount": 3,
+        "keywords": [
+          "backtracking"
+        ]
+      },
+      {
+        "id": 64,
+        "title": "Backtracking Part-2",
+        "slug": "lec-64",
+        "path": "data/LEC-64(Backtracking Part-2)",
+        "itemCount": 3,
+        "keywords": [
+          "backtracking",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 65,
+        "title": "Binary Tree - 1",
+        "slug": "lec-65",
+        "path": "data/LEC-65(Binary Tree - 1)",
+        "itemCount": 12,
+        "keywords": [
+          "binary",
+          "tree",
+          "1"
+        ]
+      },
+      {
+        "id": 66,
+        "title": "Interview problems on Binary Trees",
+        "slug": "lec-66",
+        "path": "data/LEC-66(Interview problems on Binary Trees)",
+        "itemCount": 7,
+        "keywords": [
+          "interview",
+          "problems",
+          "on",
+          "binary",
+          "trees"
+        ]
+      },
+      {
+        "id": 67,
+        "title": "Binary Search Trees",
+        "slug": "lec-67",
+        "path": "data/LEC-67(Binary Search Trees)",
+        "itemCount": 8,
+        "keywords": [
+          "binary",
+          "search",
+          "trees"
+        ]
+      },
+      {
+        "id": 68,
+        "title": "Interview problems on Binary Search Trees",
+        "slug": "lec-68",
+        "path": "data/LEC-68(Interview problems on Binary Search Trees)",
+        "itemCount": 6,
+        "keywords": [
+          "interview",
+          "problems",
+          "on",
+          "binary",
+          "search",
+          "trees"
+        ]
+      },
+      {
+        "id": 69,
+        "title": "Generic Trees",
+        "slug": "lec-69",
+        "path": "data/LEC-69(Generic Trees)",
+        "itemCount": 6,
+        "keywords": [
+          "generic",
+          "trees"
+        ]
+      },
+      {
+        "id": 70,
+        "title": "Heaps",
+        "slug": "lec-70",
+        "path": "data/LEC-70(Heaps)",
+        "itemCount": 10,
+        "keywords": [
+          "heaps"
+        ]
+      },
+      {
+        "id": 71,
+        "title": "Priority Queue",
+        "slug": "lec-71",
+        "path": "data/LEC-71(Priority Queue)",
+        "itemCount": 6,
+        "keywords": [
+          "priority",
+          "queue"
+        ]
+      },
+      {
+        "id": 72,
+        "title": "Greedy Part-1",
+        "slug": "lec-72",
+        "path": "data/LEC-72(Greedy Part-1)",
+        "itemCount": 5,
+        "keywords": [
+          "greedy",
+          "part",
+          "1"
+        ]
+      },
+      {
+        "id": 73,
+        "title": "Greedy Part-2",
+        "slug": "lec-73",
+        "path": "data/LEC-73(Greedy Part-2)",
+        "itemCount": 3,
+        "keywords": [
+          "greedy",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 74,
+        "title": "Dynamic Programming Part-1",
+        "slug": "lec-74",
+        "path": "data/LEC-74(Dynamic Programming Part-1)",
+        "itemCount": 2,
+        "keywords": [
+          "dynamic",
+          "programming",
+          "part",
+          "1"
+        ]
+      },
+      {
+        "id": 75,
+        "title": "Dynamic Programming Part-2",
+        "slug": "lec-75",
+        "path": "data/LEC-75(Dynamic Programming Part-2)",
+        "itemCount": 3,
+        "keywords": [
+          "dynamic",
+          "programming",
+          "part",
+          "2"
+        ]
+      },
+      {
+        "id": 76,
+        "title": "Interview Problems on DP-1",
+        "slug": "lec-76",
+        "path": "data/LEC-76(Interview Problems on DP-1)",
+        "itemCount": 4,
+        "keywords": [
+          "interview",
+          "problems",
+          "on",
+          "dp",
+          "1"
+        ]
+      },
+      {
+        "id": 77,
+        "title": "Interview Problems on DP-2",
+        "slug": "lec-77",
+        "path": "data/LEC-77(Interview Problems on DP-2)",
+        "itemCount": 4,
+        "keywords": [
+          "interview",
+          "problems",
+          "on",
+          "dp",
+          "2"
+        ]
+      },
+      {
+        "id": 78,
+        "title": "Interview Problems on DP-3",
+        "slug": "lec-78",
+        "path": "data/LEC-78(Interview Problems on DP-3)",
+        "itemCount": 3,
+        "keywords": [
+          "interview",
+          "problems",
+          "on",
+          "dp",
+          "3"
+        ]
+      },
+      {
+        "id": 79,
+        "title": "Graph Part-1",
+        "slug": "lec-79",
+        "path": "data/LEC-79(Graph Part-1)",
+        "itemCount": 0,
+        "keywords": [
+          "graph",
+          "part",
+          "1"
+        ]
+      },
+      {
+        "id": 80,
+        "title": "Graphs Implementation",
+        "slug": "lec-80",
+        "path": "data/LEC-80(Graphs Implementation)",
+        "itemCount": 4,
+        "keywords": [
+          "graphs",
+          "implementation"
+        ]
+      },
+      {
+        "id": 81,
+        "title": "Graphs BFS And DFS",
+        "slug": "lec-81",
+        "path": "data/LEC-81(Graphs BFS And DFS)",
+        "itemCount": 3,
+        "keywords": [
+          "graphs",
+          "bfs",
+          "and",
+          "dfs"
+        ]
+      },
+      {
+        "id": 82,
+        "title": "Problems based on BFS and DFS",
+        "slug": "lec-82",
+        "path": "data/LEC-82(Problems based on BFS and DFS)",
+        "itemCount": 2,
+        "keywords": [
+          "problems",
+          "based",
+          "on",
+          "bfs",
+          "and",
+          "dfs"
+        ]
+      },
+      {
+        "id": 83,
+        "title": "Graphs-Disjoint Set Union",
+        "slug": "lec-83",
+        "path": "data/LEC-83(Graphs-Disjoint Set Union)",
+        "itemCount": 1,
+        "keywords": [
+          "graphs",
+          "disjoint",
+          "set",
+          "union"
+        ]
+      },
+      {
+        "id": 84,
+        "title": "Topological Sorting and Cycle detection",
+        "slug": "lec-84",
+        "path": "data/LEC-84(Topological Sorting and Cycle detection)",
+        "itemCount": 6,
+        "keywords": [
+          "topological",
+          "sorting",
+          "and",
+          "cycle",
+          "detection"
+        ]
+      },
+      {
+        "id": 85,
+        "title": "Kruskal & Prims Algorithms",
+        "slug": "lec-85",
+        "path": "data/LEC-85(Kruskal & Prims Algorithms)",
+        "itemCount": 4,
+        "keywords": [
+          "kruskal",
+          "prims",
+          "algorithms"
+        ]
+      },
+      {
+        "id": 86,
+        "title": "Dijkstra's Algorithm",
+        "slug": "lec-86",
+        "path": "data/LEC-86(Dijkstra's Algorithm)",
+        "itemCount": 4,
+        "keywords": [
+          "dijkstra",
+          "s",
+          "algorithm"
+        ]
+      }
+    ]
+  },
+  "tree": [
+    {
+      "name": "LEC-3(Variables)",
+      "displayName": "LEC-3(Variables)",
+      "type": "directory",
+      "path": "data/LEC-3(Variables)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "hello_world.cpp",
+          "displayName": "hello world.cpp",
+          "type": "file",
+          "path": "data/LEC-3(Variables)/hello_world.cpp",
+          "depth": 1
+        },
+        {
+          "name": "input_output.cpp",
+          "displayName": "input output.cpp",
+          "type": "file",
+          "path": "data/LEC-3(Variables)/input_output.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum.cpp",
+          "displayName": "sum.cpp",
+          "type": "file",
+          "path": "data/LEC-3(Variables)/sum.cpp",
+          "depth": 1
+        },
+        {
+          "name": "swap.cpp",
+          "displayName": "swap.cpp",
+          "type": "file",
+          "path": "data/LEC-3(Variables)/swap.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-4(Operators)",
+      "displayName": "LEC-4(Operators)",
+      "type": "directory",
+      "path": "data/LEC-4(Operators)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "arithmetic_operators.cpp",
+          "displayName": "arithmetic operators.cpp",
+          "type": "file",
+          "path": "data/LEC-4(Operators)/arithmetic_operators.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Assignment_Operators.cpp",
+          "displayName": "Assignment Operators.cpp",
+          "type": "file",
+          "path": "data/LEC-4(Operators)/Assignment_Operators.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Bitwise_Operator.cpp",
+          "displayName": "Bitwise Operator.cpp",
+          "type": "file",
+          "path": "data/LEC-4(Operators)/Bitwise_Operator.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Logical_operators.cpp",
+          "displayName": "Logical operators.cpp",
+          "type": "file",
+          "path": "data/LEC-4(Operators)/Logical_operators.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Misc_Operator.cpp",
+          "displayName": "Misc Operator.cpp",
+          "type": "file",
+          "path": "data/LEC-4(Operators)/Misc_Operator.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Precedence_and_Associativity.cpp",
+          "displayName": "Precedence and Associativity.cpp",
+          "type": "file",
+          "path": "data/LEC-4(Operators)/Precedence_and_Associativity.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Relational_operators.cpp",
+          "displayName": "Relational operators.cpp",
+          "type": "file",
+          "path": "data/LEC-4(Operators)/Relational_operators.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Unary_operator.cpp",
+          "displayName": "Unary operator.cpp",
+          "type": "file",
+          "path": "data/LEC-4(Operators)/Unary_operator.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-5(Conditionals)",
+      "displayName": "LEC-5(Conditionals)",
+      "type": "directory",
+      "path": "data/LEC-5(Conditionals)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "MCQ",
+          "displayName": "MCQ",
+          "type": "directory",
+          "path": "data/LEC-5(Conditionals)/MCQ",
+          "depth": 1,
+          "children": [
+            {
+              "name": "q1.cpp",
+              "displayName": "q1.cpp",
+              "type": "file",
+              "path": "data/LEC-5(Conditionals)/MCQ/q1.cpp",
+              "depth": 2
+            },
+            {
+              "name": "q2.cpp",
+              "displayName": "q2.cpp",
+              "type": "file",
+              "path": "data/LEC-5(Conditionals)/MCQ/q2.cpp",
+              "depth": 2
+            },
+            {
+              "name": "q3.cpp",
+              "displayName": "q3.cpp",
+              "type": "file",
+              "path": "data/LEC-5(Conditionals)/MCQ/q3.cpp",
+              "depth": 2
+            },
+            {
+              "name": "q4.cpp",
+              "displayName": "q4.cpp",
+              "type": "file",
+              "path": "data/LEC-5(Conditionals)/MCQ/q4.cpp",
+              "depth": 2
+            },
+            {
+              "name": "q5.cpp",
+              "displayName": "q5.cpp",
+              "type": "file",
+              "path": "data/LEC-5(Conditionals)/MCQ/q5.cpp",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "age_group.cpp",
+          "displayName": "age group.cpp",
+          "type": "file",
+          "path": "data/LEC-5(Conditionals)/age_group.cpp",
+          "depth": 1
+        },
+        {
+          "name": "divisible_by_3_or_5.cpp",
+          "displayName": "divisible by 3 or 5.cpp",
+          "type": "file",
+          "path": "data/LEC-5(Conditionals)/divisible_by_3_or_5.cpp",
+          "depth": 1
+        },
+        {
+          "name": "even_divisible_by_3.cpp",
+          "displayName": "even divisible by 3.cpp",
+          "type": "file",
+          "path": "data/LEC-5(Conditionals)/even_divisible_by_3.cpp",
+          "depth": 1
+        },
+        {
+          "name": "even_odd.cpp",
+          "displayName": "even odd.cpp",
+          "type": "file",
+          "path": "data/LEC-5(Conditionals)/even_odd.cpp",
+          "depth": 1
+        },
+        {
+          "name": "if_and_if-else_statement.cpp",
+          "displayName": "if and if-else statement.cpp",
+          "type": "file",
+          "path": "data/LEC-5(Conditionals)/if_and_if-else_statement.cpp",
+          "depth": 1
+        },
+        {
+          "name": "marks.cpp",
+          "displayName": "marks.cpp",
+          "type": "file",
+          "path": "data/LEC-5(Conditionals)/marks.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Nested_if-else_statement.cpp",
+          "displayName": "Nested if-else statement.cpp",
+          "type": "file",
+          "path": "data/LEC-5(Conditionals)/Nested_if-else_statement.cpp",
+          "depth": 1
+        },
+        {
+          "name": "switch_case.cpp",
+          "displayName": "switch case.cpp",
+          "type": "file",
+          "path": "data/LEC-5(Conditionals)/switch_case.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Ternary_statement.cpp",
+          "displayName": "Ternary statement.cpp",
+          "type": "file",
+          "path": "data/LEC-5(Conditionals)/Ternary_statement.cpp",
+          "depth": 1
+        },
+        {
+          "name": "vowel_or_consonent.cpp",
+          "displayName": "vowel or consonent.cpp",
+          "type": "file",
+          "path": "data/LEC-5(Conditionals)/vowel_or_consonent.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-6(Loops)",
+      "displayName": "LEC-6(Loops)",
+      "type": "directory",
+      "path": "data/LEC-6(Loops)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "MCQ",
+          "displayName": "MCQ",
+          "type": "directory",
+          "path": "data/LEC-6(Loops)/MCQ",
+          "depth": 1,
+          "children": [
+            {
+              "name": "q1.cpp",
+              "displayName": "q1.cpp",
+              "type": "file",
+              "path": "data/LEC-6(Loops)/MCQ/q1.cpp",
+              "depth": 2
+            },
+            {
+              "name": "q2.cpp",
+              "displayName": "q2.cpp",
+              "type": "file",
+              "path": "data/LEC-6(Loops)/MCQ/q2.cpp",
+              "depth": 2
+            },
+            {
+              "name": "q3.cpp",
+              "displayName": "q3.cpp",
+              "type": "file",
+              "path": "data/LEC-6(Loops)/MCQ/q3.cpp",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "Break_Keyword.cpp",
+          "displayName": "Break Keyword.cpp",
+          "type": "file",
+          "path": "data/LEC-6(Loops)/Break_Keyword.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Continue_Keyword.cpp",
+          "displayName": "Continue Keyword.cpp",
+          "type": "file",
+          "path": "data/LEC-6(Loops)/Continue_Keyword.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Do_While_Loop.cpp",
+          "displayName": "Do While Loop.cpp",
+          "type": "file",
+          "path": "data/LEC-6(Loops)/Do_While_Loop.cpp",
+          "depth": 1
+        },
+        {
+          "name": "first_multiple_of_5_also_7.cpp",
+          "displayName": "first multiple of 5 also 7.cpp",
+          "type": "file",
+          "path": "data/LEC-6(Loops)/first_multiple_of_5_also_7.cpp",
+          "depth": 1
+        },
+        {
+          "name": "For_Loops.cpp",
+          "displayName": "For Loops.cpp",
+          "type": "file",
+          "path": "data/LEC-6(Loops)/For_Loops.cpp",
+          "depth": 1
+        },
+        {
+          "name": "num_1_to_50_except_multiple_of_3.cpp",
+          "displayName": "num 1 to 50 except multiple of 3.cpp",
+          "type": "file",
+          "path": "data/LEC-6(Loops)/num_1_to_50_except_multiple_of_3.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Omitting_For_loops.cpp",
+          "displayName": "Omitting For loops.cpp",
+          "type": "file",
+          "path": "data/LEC-6(Loops)/Omitting_For_loops.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum_of_n_numbers.cpp",
+          "displayName": "sum of n numbers.cpp",
+          "type": "file",
+          "path": "data/LEC-6(Loops)/sum_of_n_numbers.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum_of_stream_of_N_integers.cpp",
+          "displayName": "sum of stream of N integers.cpp",
+          "type": "file",
+          "path": "data/LEC-6(Loops)/sum_of_stream_of_N_integers.cpp",
+          "depth": 1
+        },
+        {
+          "name": "While_Loop.cpp",
+          "displayName": "While Loop.cpp",
+          "type": "file",
+          "path": "data/LEC-6(Loops)/While_Loop.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-7(Patterns part=1)",
+      "displayName": "LEC-7(Patterns part=1)",
+      "type": "directory",
+      "path": "data/LEC-7(Patterns part=1)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "diagonal_number_rectangle.cpp",
+          "displayName": "diagonal number rectangle.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/diagonal_number_rectangle.cpp",
+          "depth": 1
+        },
+        {
+          "name": "hollow_number_pyramid.cpp",
+          "displayName": "hollow number pyramid.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/hollow_number_pyramid.cpp",
+          "depth": 1
+        },
+        {
+          "name": "hollow_number_rectangle.cpp",
+          "displayName": "hollow number rectangle.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/hollow_number_rectangle.cpp",
+          "depth": 1
+        },
+        {
+          "name": "hollow_number_triangle.cpp",
+          "displayName": "hollow number triangle.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/hollow_number_triangle.cpp",
+          "depth": 1
+        },
+        {
+          "name": "hollow_rectangle.cpp",
+          "displayName": "hollow rectangle.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/hollow_rectangle.cpp",
+          "depth": 1
+        },
+        {
+          "name": "inverted_triangle.cpp",
+          "displayName": "inverted triangle.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/inverted_triangle.cpp",
+          "depth": 1
+        },
+        {
+          "name": "number_palindrome_pyramid.cpp",
+          "displayName": "number palindrome pyramid.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/number_palindrome_pyramid.cpp",
+          "depth": 1
+        },
+        {
+          "name": "number_rectangle.cpp",
+          "displayName": "number rectangle.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/number_rectangle.cpp",
+          "depth": 1
+        },
+        {
+          "name": "number_triangle.cpp",
+          "displayName": "number triangle.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/number_triangle.cpp",
+          "depth": 1
+        },
+        {
+          "name": "recurrent_number_rectangle.cpp",
+          "displayName": "recurrent number rectangle.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/recurrent_number_rectangle.cpp",
+          "depth": 1
+        },
+        {
+          "name": "soid_triangle.cpp",
+          "displayName": "soid triangle.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/soid_triangle.cpp",
+          "depth": 1
+        },
+        {
+          "name": "solid_rectangle.cpp",
+          "displayName": "solid rectangle.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/solid_rectangle.cpp",
+          "depth": 1
+        },
+        {
+          "name": "star_pyramid.cpp",
+          "displayName": "star pyramid.cpp",
+          "type": "file",
+          "path": "data/LEC-7(Patterns part=1)/star_pyramid.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-8(Patterns Part=2)",
+      "displayName": "LEC-8(Patterns Part=2)",
+      "type": "directory",
+      "path": "data/LEC-8(Patterns Part=2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "a_raise_to_the_power_b.cpp",
+          "displayName": "a raise to the power b.cpp",
+          "type": "file",
+          "path": "data/LEC-8(Patterns Part=2)/a_raise_to_the_power_b.cpp",
+          "depth": 1
+        },
+        {
+          "name": "first_n_factorial_numbers.cpp",
+          "displayName": "first n factorial numbers.cpp",
+          "type": "file",
+          "path": "data/LEC-8(Patterns Part=2)/first_n_factorial_numbers.cpp",
+          "depth": 1
+        },
+        {
+          "name": "number_of_digit.cpp",
+          "displayName": "number of digit.cpp",
+          "type": "file",
+          "path": "data/LEC-8(Patterns Part=2)/number_of_digit.cpp",
+          "depth": 1
+        },
+        {
+          "name": "reverse_digits_of_a_number.cpp",
+          "displayName": "reverse digits of a number.cpp",
+          "type": "file",
+          "path": "data/LEC-8(Patterns Part=2)/reverse_digits_of_a_number.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum_of_digits.cpp",
+          "displayName": "sum of digits.cpp",
+          "type": "file",
+          "path": "data/LEC-8(Patterns Part=2)/sum_of_digits.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum_of_odd_even_series.cpp",
+          "displayName": "sum of odd even series.cpp",
+          "type": "file",
+          "path": "data/LEC-8(Patterns Part=2)/sum_of_odd_even_series.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-9(Number System)",
+      "displayName": "LEC-9(Number System)",
+      "type": "directory",
+      "path": "data/LEC-9(Number System)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "binary_to_decimal.cpp",
+          "displayName": "binary to decimal.cpp",
+          "type": "file",
+          "path": "data/LEC-9(Number System)/binary_to_decimal.cpp",
+          "depth": 1
+        },
+        {
+          "name": "decimal_to_binary.cpp",
+          "displayName": "decimal to binary.cpp",
+          "type": "file",
+          "path": "data/LEC-9(Number System)/decimal_to_binary.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-10(Functions)",
+      "displayName": "LEC-10(Functions)",
+      "type": "directory",
+      "path": "data/LEC-10(Functions)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "add_func.cpp",
+          "displayName": "add func.cpp",
+          "type": "file",
+          "path": "data/LEC-10(Functions)/add_func.cpp",
+          "depth": 1
+        },
+        {
+          "name": "file.txt",
+          "displayName": "file.txt",
+          "type": "file",
+          "path": "data/LEC-10(Functions)/file.txt",
+          "depth": 1
+        },
+        {
+          "name": "func_prototype.cpp",
+          "displayName": "func prototype.cpp",
+          "type": "file",
+          "path": "data/LEC-10(Functions)/func_prototype.cpp",
+          "depth": 1
+        },
+        {
+          "name": "q1.cpp",
+          "displayName": "q1.cpp",
+          "type": "file",
+          "path": "data/LEC-10(Functions)/q1.cpp",
+          "depth": 1
+        },
+        {
+          "name": "standard_library_func.cpp",
+          "displayName": "standard library func.cpp",
+          "type": "file",
+          "path": "data/LEC-10(Functions)/standard_library_func.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-11(Functions Part-2)",
+      "displayName": "LEC-11(Functions Part-2)",
+      "type": "directory",
+      "path": "data/LEC-11(Functions Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Problems",
+          "displayName": "Problems",
+          "type": "directory",
+          "path": "data/LEC-11(Functions Part-2)/Problems",
+          "depth": 1,
+          "children": [
+            {
+              "name": "q1.cpp",
+              "displayName": "q1.cpp",
+              "type": "file",
+              "path": "data/LEC-11(Functions Part-2)/Problems/q1.cpp",
+              "depth": 2
+            },
+            {
+              "name": "q2.cpp",
+              "displayName": "q2.cpp",
+              "type": "file",
+              "path": "data/LEC-11(Functions Part-2)/Problems/q2.cpp",
+              "depth": 2
+            },
+            {
+              "name": "q3.cpp",
+              "displayName": "q3.cpp",
+              "type": "file",
+              "path": "data/LEC-11(Functions Part-2)/Problems/q3.cpp",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "default_parameter_value.cpp",
+          "displayName": "default parameter value.cpp",
+          "type": "file",
+          "path": "data/LEC-11(Functions Part-2)/default_parameter_value.cpp",
+          "depth": 1
+        },
+        {
+          "name": "global-scope_resolution_operator.cpp",
+          "displayName": "global-scope resolution operator.cpp",
+          "type": "file",
+          "path": "data/LEC-11(Functions Part-2)/global-scope_resolution_operator.cpp",
+          "depth": 1
+        },
+        {
+          "name": "local_variable.cpp",
+          "displayName": "local variable.cpp",
+          "type": "file",
+          "path": "data/LEC-11(Functions Part-2)/local_variable.cpp",
+          "depth": 1
+        },
+        {
+          "name": "pass_by_reference.cpp",
+          "displayName": "pass by reference.cpp",
+          "type": "file",
+          "path": "data/LEC-11(Functions Part-2)/pass_by_reference.cpp",
+          "depth": 1
+        },
+        {
+          "name": "pass_by_value.cpp",
+          "displayName": "pass by value.cpp",
+          "type": "file",
+          "path": "data/LEC-11(Functions Part-2)/pass_by_value.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-12(Arrays)",
+      "displayName": "LEC-12(Arrays)",
+      "type": "directory",
+      "path": "data/LEC-12(Arrays)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Array.cpp",
+          "displayName": "Array.cpp",
+          "type": "file",
+          "path": "data/LEC-12(Arrays)/Array.cpp",
+          "depth": 1
+        },
+        {
+          "name": "declaration_and_traversing_an_array.cpp",
+          "displayName": "declaration and traversing an array.cpp",
+          "type": "file",
+          "path": "data/LEC-12(Arrays)/declaration_and_traversing_an_array.cpp",
+          "depth": 1
+        },
+        {
+          "name": "insertion_of_element.cpp",
+          "displayName": "insertion of element.cpp",
+          "type": "file",
+          "path": "data/LEC-12(Arrays)/insertion_of_element.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Linear_search_algo-find_a_element.cpp",
+          "displayName": "Linear search algo-find a element.cpp",
+          "type": "file",
+          "path": "data/LEC-12(Arrays)/Linear_search_algo-find_a_element.cpp",
+          "depth": 1
+        },
+        {
+          "name": "max_element.cpp",
+          "displayName": "max element.cpp",
+          "type": "file",
+          "path": "data/LEC-12(Arrays)/max_element.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Operations_in_array.cpp",
+          "displayName": "Operations in array.cpp",
+          "type": "file",
+          "path": "data/LEC-12(Arrays)/Operations_in_array.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum_of_elements.cpp",
+          "displayName": "sum of elements.cpp",
+          "type": "file",
+          "path": "data/LEC-12(Arrays)/sum_of_elements.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-13(Arrays Part-2 VECTOR)",
+      "displayName": "LEC-13(Arrays Part-2 VECTOR)",
+      "type": "directory",
+      "path": "data/LEC-13(Arrays Part-2 VECTOR)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "add_elements.cpp",
+          "displayName": "add elements.cpp",
+          "type": "file",
+          "path": "data/LEC-13(Arrays Part-2 VECTOR)/add_elements.cpp",
+          "depth": 1
+        },
+        {
+          "name": "capaciy_and_size.cpp",
+          "displayName": "capaciy and size.cpp",
+          "type": "file",
+          "path": "data/LEC-13(Arrays Part-2 VECTOR)/capaciy_and_size.cpp",
+          "depth": 1
+        },
+        {
+          "name": "count_greater_than_x.cpp",
+          "displayName": "count greater than x.cpp",
+          "type": "file",
+          "path": "data/LEC-13(Arrays Part-2 VECTOR)/count_greater_than_x.cpp",
+          "depth": 1
+        },
+        {
+          "name": "delete_element.cpp",
+          "displayName": "delete element.cpp",
+          "type": "file",
+          "path": "data/LEC-13(Arrays Part-2 VECTOR)/delete_element.cpp",
+          "depth": 1
+        },
+        {
+          "name": "even_odd_indices_diff.cpp",
+          "displayName": "even odd indices diff.cpp",
+          "type": "file",
+          "path": "data/LEC-13(Arrays Part-2 VECTOR)/even_odd_indices_diff.cpp",
+          "depth": 1
+        },
+        {
+          "name": "last_occurrence.cpp",
+          "displayName": "last occurrence.cpp",
+          "type": "file",
+          "path": "data/LEC-13(Arrays Part-2 VECTOR)/last_occurrence.cpp",
+          "depth": 1
+        },
+        {
+          "name": "loop_in_vector.cpp",
+          "displayName": "loop in vector.cpp",
+          "type": "file",
+          "path": "data/LEC-13(Arrays Part-2 VECTOR)/loop_in_vector.cpp",
+          "depth": 1
+        },
+        {
+          "name": "number_occurrence.cpp",
+          "displayName": "number occurrence.cpp",
+          "type": "file",
+          "path": "data/LEC-13(Arrays Part-2 VECTOR)/number_occurrence.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sorted_or_not.cpp",
+          "displayName": "sorted or not.cpp",
+          "type": "file",
+          "path": "data/LEC-13(Arrays Part-2 VECTOR)/sorted_or_not.cpp",
+          "depth": 1
+        },
+        {
+          "name": "vector.cpp",
+          "displayName": "vector.cpp",
+          "type": "file",
+          "path": "data/LEC-13(Arrays Part-2 VECTOR)/vector.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-14(Problems on Arrays Part-1)",
+      "displayName": "LEC-14(Problems on Arrays Part-1)",
+      "type": "directory",
+      "path": "data/LEC-14(Problems on Arrays Part-1)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "array_manipulation-find_unique_number.cpp",
+          "displayName": "array manipulation-find unique number.cpp",
+          "type": "file",
+          "path": "data/LEC-14(Problems on Arrays Part-1)/array_manipulation-find_unique_number.cpp",
+          "depth": 1
+        },
+        {
+          "name": "queries_number_present_or_not.cpp",
+          "displayName": "queries number present or not.cpp",
+          "type": "file",
+          "path": "data/LEC-14(Problems on Arrays Part-1)/queries_number_present_or_not.cpp",
+          "depth": 1
+        },
+        {
+          "name": "rotate_array_by_k_steps.cpp",
+          "displayName": "rotate array by k steps.cpp",
+          "type": "file",
+          "path": "data/LEC-14(Problems on Arrays Part-1)/rotate_array_by_k_steps.cpp",
+          "depth": 1
+        },
+        {
+          "name": "second_largest_element.cpp",
+          "displayName": "second largest element.cpp",
+          "type": "file",
+          "path": "data/LEC-14(Problems on Arrays Part-1)/second_largest_element.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum_of_pairs_equal_x.cpp",
+          "displayName": "sum of pairs equal x.cpp",
+          "type": "file",
+          "path": "data/LEC-14(Problems on Arrays Part-1)/sum_of_pairs_equal_x.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum_of_triplets_equal_x.cpp",
+          "displayName": "sum of triplets equal x.cpp",
+          "type": "file",
+          "path": "data/LEC-14(Problems on Arrays Part-1)/sum_of_triplets_equal_x.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-15(Problems on Arrays Part-2)",
+      "displayName": "LEC-15(Problems on Arrays Part-2)",
+      "type": "directory",
+      "path": "data/LEC-15(Problems on Arrays Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "sort_array_of_0-1.cpp",
+          "displayName": "sort array of 0-1.cpp",
+          "type": "file",
+          "path": "data/LEC-15(Problems on Arrays Part-2)/sort_array_of_0-1.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sort_odd_even_array.cpp",
+          "displayName": "sort odd even array.cpp",
+          "type": "file",
+          "path": "data/LEC-15(Problems on Arrays Part-2)/sort_odd_even_array.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sort_squared_array.cpp",
+          "displayName": "sort squared array.cpp",
+          "type": "file",
+          "path": "data/LEC-15(Problems on Arrays Part-2)/sort_squared_array.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-16(Problems on Arrays Part-3)",
+      "displayName": "LEC-16(Problems on Arrays Part-3)",
+      "type": "directory",
+      "path": "data/LEC-16(Problems on Arrays Part-3)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "partition_array_equal_sum.cpp",
+          "displayName": "partition array equal sum.cpp",
+          "type": "file",
+          "path": "data/LEC-16(Problems on Arrays Part-3)/partition_array_equal_sum.cpp",
+          "depth": 1
+        },
+        {
+          "name": "prefix_sum.cpp",
+          "displayName": "prefix sum.cpp",
+          "type": "file",
+          "path": "data/LEC-16(Problems on Arrays Part-3)/prefix_sum.cpp",
+          "depth": 1
+        },
+        {
+          "name": "querie_l_r_problem.cpp",
+          "displayName": "querie l r problem.cpp",
+          "type": "file",
+          "path": "data/LEC-16(Problems on Arrays Part-3)/querie_l_r_problem.cpp",
+          "depth": 1
+        },
+        {
+          "name": "suffix_sum.cpp",
+          "displayName": "suffix sum.cpp",
+          "type": "file",
+          "path": "data/LEC-16(Problems on Arrays Part-3)/suffix_sum.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-17(2D ARRAY Part-1)",
+      "displayName": "LEC-17(2D ARRAY Part-1)",
+      "type": "directory",
+      "path": "data/LEC-17(2D ARRAY Part-1)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Array-2D.cpp",
+          "displayName": "Array-2D.cpp",
+          "type": "file",
+          "path": "data/LEC-17(2D ARRAY Part-1)/Array-2D.cpp",
+          "depth": 1
+        },
+        {
+          "name": "matrix_multiplication.cpp",
+          "displayName": "matrix multiplication.cpp",
+          "type": "file",
+          "path": "data/LEC-17(2D ARRAY Part-1)/matrix_multiplication.cpp",
+          "depth": 1
+        },
+        {
+          "name": "transpose_of_matrix.cpp",
+          "displayName": "transpose of matrix.cpp",
+          "type": "file",
+          "path": "data/LEC-17(2D ARRAY Part-1)/transpose_of_matrix.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-18(Problens on 2D Arrays Part-2)",
+      "displayName": "LEC-18(Problens on 2D Arrays Part-2)",
+      "type": "directory",
+      "path": "data/LEC-18(Problens on 2D Arrays Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Pascals_triangle.cpp",
+          "displayName": "Pascals triangle.cpp",
+          "type": "file",
+          "path": "data/LEC-18(Problens on 2D Arrays Part-2)/Pascals_triangle.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Vectors_2D.cpp",
+          "displayName": "Vectors 2D.cpp",
+          "type": "file",
+          "path": "data/LEC-18(Problens on 2D Arrays Part-2)/Vectors_2D.cpp",
+          "depth": 1
+        },
+        {
+          "name": "visualize_2D_vectors.cpp",
+          "displayName": "visualize 2D vectors.cpp",
+          "type": "file",
+          "path": "data/LEC-18(Problens on 2D Arrays Part-2)/visualize_2D_vectors.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-19(Problens on 2D Arrays Part-3)",
+      "displayName": "LEC-19(Problens on 2D Arrays Part-3)",
+      "type": "directory",
+      "path": "data/LEC-19(Problens on 2D Arrays Part-3)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Rotation_of_matrix.cpp",
+          "displayName": "Rotation of matrix.cpp",
+          "type": "file",
+          "path": "data/LEC-19(Problens on 2D Arrays Part-3)/Rotation_of_matrix.cpp",
+          "depth": 1
+        },
+        {
+          "name": "rows_with_max_1s.cpp",
+          "displayName": "rows with max 1s.cpp",
+          "type": "file",
+          "path": "data/LEC-19(Problens on 2D Arrays Part-3)/rows_with_max_1s.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-20(Problens on 2D Arrays Part-4)",
+      "displayName": "LEC-20(Problens on 2D Arrays Part-4)",
+      "type": "directory",
+      "path": "data/LEC-20(Problens on 2D Arrays Part-4)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "create_spiral_matrix.cpp",
+          "displayName": "create spiral matrix.cpp",
+          "type": "file",
+          "path": "data/LEC-20(Problens on 2D Arrays Part-4)/create_spiral_matrix.cpp",
+          "depth": 1
+        },
+        {
+          "name": "spiral_matrix.cpp",
+          "displayName": "spiral matrix.cpp",
+          "type": "file",
+          "path": "data/LEC-20(Problens on 2D Arrays Part-4)/spiral_matrix.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-21(Problens on 2D Arrays Part-5)",
+      "displayName": "LEC-21(Problens on 2D Arrays Part-5)",
+      "type": "directory",
+      "path": "data/LEC-21(Problens on 2D Arrays Part-5)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "prefixSum-sum_of_rectangle.cpp",
+          "displayName": "prefixSum-sum of rectangle.cpp",
+          "type": "file",
+          "path": "data/LEC-21(Problens on 2D Arrays Part-5)/prefixSum-sum_of_rectangle.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-22(Time Space Complexity - Big O Notation)",
+      "displayName": "LEC-22(Time Space Complexity - Big O Notation)",
+      "type": "directory",
+      "path": "data/LEC-22(Time Space Complexity - Big O Notation)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "ques1.cpp",
+          "displayName": "ques1.cpp",
+          "type": "file",
+          "path": "data/LEC-22(Time Space Complexity - Big O Notation)/ques1.cpp",
+          "depth": 1
+        },
+        {
+          "name": "ques2.cpp",
+          "displayName": "ques2.cpp",
+          "type": "file",
+          "path": "data/LEC-22(Time Space Complexity - Big O Notation)/ques2.cpp",
+          "depth": 1
+        },
+        {
+          "name": "ques3.cpp",
+          "displayName": "ques3.cpp",
+          "type": "file",
+          "path": "data/LEC-22(Time Space Complexity - Big O Notation)/ques3.cpp",
+          "depth": 1
+        },
+        {
+          "name": "ques4.cpp",
+          "displayName": "ques4.cpp",
+          "type": "file",
+          "path": "data/LEC-22(Time Space Complexity - Big O Notation)/ques4.cpp",
+          "depth": 1
+        },
+        {
+          "name": "ques5.cpp",
+          "displayName": "ques5.cpp",
+          "type": "file",
+          "path": "data/LEC-22(Time Space Complexity - Big O Notation)/ques5.cpp",
+          "depth": 1
+        },
+        {
+          "name": "ques6.cpp",
+          "displayName": "ques6.cpp",
+          "type": "file",
+          "path": "data/LEC-22(Time Space Complexity - Big O Notation)/ques6.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Space_Complexity.cpp",
+          "displayName": "Space Complexity.cpp",
+          "type": "file",
+          "path": "data/LEC-22(Time Space Complexity - Big O Notation)/Space_Complexity.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Time_Complexity.cpp",
+          "displayName": "Time Complexity.cpp",
+          "type": "file",
+          "path": "data/LEC-22(Time Space Complexity - Big O Notation)/Time_Complexity.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-23(Time and Space Complexity)",
+      "displayName": "LEC-23(Time and Space Complexity)",
+      "type": "directory",
+      "path": "data/LEC-23(Time and Space Complexity)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "q1_and_q2.cpp",
+          "displayName": "q1 and q2.cpp",
+          "type": "file",
+          "path": "data/LEC-23(Time and Space Complexity)/q1_and_q2.cpp",
+          "depth": 1
+        },
+        {
+          "name": "q3.cpp",
+          "displayName": "q3.cpp",
+          "type": "file",
+          "path": "data/LEC-23(Time and Space Complexity)/q3.cpp",
+          "depth": 1
+        },
+        {
+          "name": "q4.cpp",
+          "displayName": "q4.cpp",
+          "type": "file",
+          "path": "data/LEC-23(Time and Space Complexity)/q4.cpp",
+          "depth": 1
+        },
+        {
+          "name": "q5.cpp",
+          "displayName": "q5.cpp",
+          "type": "file",
+          "path": "data/LEC-23(Time and Space Complexity)/q5.cpp",
+          "depth": 1
+        },
+        {
+          "name": "q6.cpp",
+          "displayName": "q6.cpp",
+          "type": "file",
+          "path": "data/LEC-23(Time and Space Complexity)/q6.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-24(Pointers Part-1)",
+      "displayName": "LEC-24(Pointers Part-1)",
+      "type": "directory",
+      "path": "data/LEC-24(Pointers Part-1)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "1_Pointer.cpp",
+          "displayName": "1 Pointer.cpp",
+          "type": "file",
+          "path": "data/LEC-24(Pointers Part-1)/1_Pointer.cpp",
+          "depth": 1
+        },
+        {
+          "name": "2_Address.cpp",
+          "displayName": "2 Address.cpp",
+          "type": "file",
+          "path": "data/LEC-24(Pointers Part-1)/2_Address.cpp",
+          "depth": 1
+        },
+        {
+          "name": "3_declaring_Pointer.cpp",
+          "displayName": "3 declaring Pointer.cpp",
+          "type": "file",
+          "path": "data/LEC-24(Pointers Part-1)/3_declaring_Pointer.cpp",
+          "depth": 1
+        },
+        {
+          "name": "4_error.cpp",
+          "displayName": "4 error.cpp",
+          "type": "file",
+          "path": "data/LEC-24(Pointers Part-1)/4_error.cpp",
+          "depth": 1
+        },
+        {
+          "name": "5_derefereance_operator.cpp",
+          "displayName": "5 derefereance operator.cpp",
+          "type": "file",
+          "path": "data/LEC-24(Pointers Part-1)/5_derefereance_operator.cpp",
+          "depth": 1
+        },
+        {
+          "name": "6_mistakes.cpp",
+          "displayName": "6 mistakes.cpp",
+          "type": "file",
+          "path": "data/LEC-24(Pointers Part-1)/6_mistakes.cpp",
+          "depth": 1
+        },
+        {
+          "name": "7_address_of_pointer.cpp",
+          "displayName": "7 address of pointer.cpp",
+          "type": "file",
+          "path": "data/LEC-24(Pointers Part-1)/7_address_of_pointer.cpp",
+          "depth": 1
+        },
+        {
+          "name": "add_using_pointers.cpp",
+          "displayName": "add using pointers.cpp",
+          "type": "file",
+          "path": "data/LEC-24(Pointers Part-1)/add_using_pointers.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-25(Pointers Part-2)",
+      "displayName": "LEC-25(Pointers Part-2)",
+      "type": "directory",
+      "path": "data/LEC-25(Pointers Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "array_address_pointer.cpp",
+          "displayName": "array address pointer.cpp",
+          "type": "file",
+          "path": "data/LEC-25(Pointers Part-2)/array_address_pointer.cpp",
+          "depth": 1
+        },
+        {
+          "name": "array_pointers.cpp",
+          "displayName": "array pointers.cpp",
+          "type": "file",
+          "path": "data/LEC-25(Pointers Part-2)/array_pointers.cpp",
+          "depth": 1
+        },
+        {
+          "name": "array_pointers2.cpp",
+          "displayName": "array pointers2.cpp",
+          "type": "file",
+          "path": "data/LEC-25(Pointers Part-2)/array_pointers2.cpp",
+          "depth": 1
+        },
+        {
+          "name": "array_pointers3.cpp",
+          "displayName": "array pointers3.cpp",
+          "type": "file",
+          "path": "data/LEC-25(Pointers Part-2)/array_pointers3.cpp",
+          "depth": 1
+        },
+        {
+          "name": "call_by_ref_first_last_occurrence.cpp",
+          "displayName": "call by ref first last occurrence.cpp",
+          "type": "file",
+          "path": "data/LEC-25(Pointers Part-2)/call_by_ref_first_last_occurrence.cpp",
+          "depth": 1
+        },
+        {
+          "name": "call_by_reference_using_pointers.cpp",
+          "displayName": "call by reference using pointers.cpp",
+          "type": "file",
+          "path": "data/LEC-25(Pointers Part-2)/call_by_reference_using_pointers.cpp",
+          "depth": 1
+        },
+        {
+          "name": "pointer_arithmatic_methods.cpp",
+          "displayName": "pointer arithmatic methods.cpp",
+          "type": "file",
+          "path": "data/LEC-25(Pointers Part-2)/pointer_arithmatic_methods.cpp",
+          "depth": 1
+        },
+        {
+          "name": "pointer_arithmatic.cpp",
+          "displayName": "pointer arithmatic.cpp",
+          "type": "file",
+          "path": "data/LEC-25(Pointers Part-2)/pointer_arithmatic.cpp",
+          "depth": 1
+        },
+        {
+          "name": "post_pre_arithmatic_pointers.cpp",
+          "displayName": "post pre arithmatic pointers.cpp",
+          "type": "file",
+          "path": "data/LEC-25(Pointers Part-2)/post_pre_arithmatic_pointers.cpp",
+          "depth": 1
+        },
+        {
+          "name": "post_pre_arithmatic_pointers2.cpp",
+          "displayName": "post pre arithmatic pointers2.cpp",
+          "type": "file",
+          "path": "data/LEC-25(Pointers Part-2)/post_pre_arithmatic_pointers2.cpp",
+          "depth": 1
+        },
+        {
+          "name": "post_pre_arithmatic_pointers3.cpp",
+          "displayName": "post pre arithmatic pointers3.cpp",
+          "type": "file",
+          "path": "data/LEC-25(Pointers Part-2)/post_pre_arithmatic_pointers3.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-26(Pointers Part-3)",
+      "displayName": "LEC-26(Pointers Part-3)",
+      "type": "directory",
+      "path": "data/LEC-26(Pointers Part-3)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Dangling_Pointer.cpp",
+          "displayName": "Dangling Pointer.cpp",
+          "type": "file",
+          "path": "data/LEC-26(Pointers Part-3)/Dangling_Pointer.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Null_Pointer.cpp",
+          "displayName": "Null Pointer.cpp",
+          "type": "file",
+          "path": "data/LEC-26(Pointers Part-3)/Null_Pointer.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Void_Pointer.cpp",
+          "displayName": "Void Pointer.cpp",
+          "type": "file",
+          "path": "data/LEC-26(Pointers Part-3)/Void_Pointer.cpp",
+          "depth": 1
+        },
+        {
+          "name": "wild_pointers.cpp",
+          "displayName": "wild pointers.cpp",
+          "type": "file",
+          "path": "data/LEC-26(Pointers Part-3)/wild_pointers.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-27(Recursion))",
+      "displayName": "LEC-27(Recursion))",
+      "type": "directory",
+      "path": "data/LEC-27(Recursion))",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Recursive_function-find-factorial.cpp",
+          "displayName": "Recursive function-find-factorial.cpp",
+          "type": "file",
+          "path": "data/LEC-27(Recursion))/Recursive_function-find-factorial.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-28(Problems on Recursion Part-1)",
+      "displayName": "LEC-28(Problems on Recursion Part-1)",
+      "type": "directory",
+      "path": "data/LEC-28(Problems on Recursion Part-1)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "power.cpp",
+          "displayName": "power.cpp",
+          "type": "file",
+          "path": "data/LEC-28(Problems on Recursion Part-1)/power.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum_of_digit.cpp",
+          "displayName": "sum of digit.cpp",
+          "type": "file",
+          "path": "data/LEC-28(Problems on Recursion Part-1)/sum_of_digit.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-29(Problems on Recursion Part-2)",
+      "displayName": "LEC-29(Problems on Recursion Part-2)",
+      "type": "directory",
+      "path": "data/LEC-29(Problems on Recursion Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_recursion_on_arrays.cpp",
+          "displayName": "01 recursion on arrays.cpp",
+          "type": "file",
+          "path": "data/LEC-29(Problems on Recursion Part-2)/01_recursion_on_arrays.cpp",
+          "depth": 1
+        },
+        {
+          "name": "max_element.cpp",
+          "displayName": "max element.cpp",
+          "type": "file",
+          "path": "data/LEC-29(Problems on Recursion Part-2)/max_element.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum_of_elements.cpp",
+          "displayName": "sum of elements.cpp",
+          "type": "file",
+          "path": "data/LEC-29(Problems on Recursion Part-2)/sum_of_elements.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-30(Problems on Recursion Part-3)",
+      "displayName": "LEC-30(Problems on Recursion Part-3)",
+      "type": "directory",
+      "path": "data/LEC-30(Problems on Recursion Part-3)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "is_number_palindrome.cpp",
+          "displayName": "is number palindrome.cpp",
+          "type": "file",
+          "path": "data/LEC-30(Problems on Recursion Part-3)/is_number_palindrome.cpp",
+          "depth": 1
+        },
+        {
+          "name": "remove_occurrence_of_a.cpp",
+          "displayName": "remove occurrence of a.cpp",
+          "type": "file",
+          "path": "data/LEC-30(Problems on Recursion Part-3)/remove_occurrence_of_a.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-31(Problems on Recursion Part-4)",
+      "displayName": "LEC-31(Problems on Recursion Part-4)",
+      "type": "directory",
+      "path": "data/LEC-31(Problems on Recursion Part-4)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "multiples_of_num.cpp",
+          "displayName": "multiples of num.cpp",
+          "type": "file",
+          "path": "data/LEC-31(Problems on Recursion Part-4)/multiples_of_num.cpp",
+          "depth": 1
+        },
+        {
+          "name": "print_increasing_number.cpp",
+          "displayName": "print increasing number.cpp",
+          "type": "file",
+          "path": "data/LEC-31(Problems on Recursion Part-4)/print_increasing_number.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum_of_n_num_with_alternate_sign.cpp",
+          "displayName": "sum of n num with alternate sign.cpp",
+          "type": "file",
+          "path": "data/LEC-31(Problems on Recursion Part-4)/sum_of_n_num_with_alternate_sign.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-32(Problems on Recursion Part-5)",
+      "displayName": "LEC-32(Problems on Recursion Part-5)",
+      "type": "directory",
+      "path": "data/LEC-32(Problems on Recursion Part-5)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "armstrong_number.cpp",
+          "displayName": "armstrong number.cpp",
+          "type": "file",
+          "path": "data/LEC-32(Problems on Recursion Part-5)/armstrong_number.cpp",
+          "depth": 1
+        },
+        {
+          "name": "frog_jump_stair_problem.cpp",
+          "displayName": "frog jump stair problem.cpp",
+          "type": "file",
+          "path": "data/LEC-32(Problems on Recursion Part-5)/frog_jump_stair_problem.cpp",
+          "depth": 1
+        },
+        {
+          "name": "gratest_common_divisor_of_x_y.cpp",
+          "displayName": "gratest common divisor of x y.cpp",
+          "type": "file",
+          "path": "data/LEC-32(Problems on Recursion Part-5)/gratest_common_divisor_of_x_y.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-33(Problems on Recursion Part-6)",
+      "displayName": "LEC-33(Problems on Recursion Part-6)",
+      "type": "directory",
+      "path": "data/LEC-33(Problems on Recursion Part-6)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "grid_goal_problem.cpp",
+          "displayName": "grid goal problem.cpp",
+          "type": "file",
+          "path": "data/LEC-33(Problems on Recursion Part-6)/grid_goal_problem.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum_of_subsets_array.cpp",
+          "displayName": "sum of subsets array.cpp",
+          "type": "file",
+          "path": "data/LEC-33(Problems on Recursion Part-6)/sum_of_subsets_array.cpp",
+          "depth": 1
+        },
+        {
+          "name": "x_exist_in_array_or_not.cpp",
+          "displayName": "x exist in array or not.cpp",
+          "type": "file",
+          "path": "data/LEC-33(Problems on Recursion Part-6)/x_exist_in_array_or_not.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-34(Problems on Recursion Part-7)",
+      "displayName": "LEC-34(Problems on Recursion Part-7)",
+      "type": "directory",
+      "path": "data/LEC-34(Problems on Recursion Part-7)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "letter_combination_old_keypad_mobile.cpp",
+          "displayName": "letter combination old keypad mobile.cpp",
+          "type": "file",
+          "path": "data/LEC-34(Problems on Recursion Part-7)/letter_combination_old_keypad_mobile.cpp",
+          "depth": 1
+        },
+        {
+          "name": "subsequences_of_string.cpp",
+          "displayName": "subsequences of string.cpp",
+          "type": "file",
+          "path": "data/LEC-34(Problems on Recursion Part-7)/subsequences_of_string.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-35(Bubble Sort)",
+      "displayName": "LEC-35(Bubble Sort)",
+      "type": "directory",
+      "path": "data/LEC-35(Bubble Sort)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Bubble_Sort.cpp",
+          "displayName": "Bubble Sort.cpp",
+          "type": "file",
+          "path": "data/LEC-35(Bubble Sort)/Bubble_Sort.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sorting_using_extra_array.cpp",
+          "displayName": "sorting using extra array.cpp",
+          "type": "file",
+          "path": "data/LEC-35(Bubble Sort)/sorting_using_extra_array.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-36(Selection Sort)",
+      "displayName": "LEC-36(Selection Sort)",
+      "type": "directory",
+      "path": "data/LEC-36(Selection Sort)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Selection_Sort.cpp",
+          "displayName": "Selection Sort.cpp",
+          "type": "file",
+          "path": "data/LEC-36(Selection Sort)/Selection_Sort.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-37(Insertion Sort)",
+      "displayName": "LEC-37(Insertion Sort)",
+      "type": "directory",
+      "path": "data/LEC-37(Insertion Sort)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Insertion_Sort.cpp",
+          "displayName": "Insertion Sort.cpp",
+          "type": "file",
+          "path": "data/LEC-37(Insertion Sort)/Insertion_Sort.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-38(Problems on Sorting Algorithm Part-1",
+      "displayName": "LEC-38(Problems on Sorting Algorithm Part-1",
+      "type": "directory",
+      "path": "data/LEC-38(Problems on Sorting Algorithm Part-1",
+      "depth": 0,
+      "children": [
+        {
+          "name": "move_zeros_at_last.cpp",
+          "displayName": "move zeros at last.cpp",
+          "type": "file",
+          "path": "data/LEC-38(Problems on Sorting Algorithm Part-1/move_zeros_at_last.cpp",
+          "depth": 1
+        },
+        {
+          "name": "selectinSort_in_Strings.cpp",
+          "displayName": "selectinSort in Strings.cpp",
+          "type": "file",
+          "path": "data/LEC-38(Problems on Sorting Algorithm Part-1/selectinSort_in_Strings.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-39(Merge Sort)",
+      "displayName": "LEC-39(Merge Sort)",
+      "type": "directory",
+      "path": "data/LEC-39(Merge Sort)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Merge_Sort.cpp",
+          "displayName": "Merge Sort.cpp",
+          "type": "file",
+          "path": "data/LEC-39(Merge Sort)/Merge_Sort.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-40(Quick Sort)",
+      "displayName": "LEC-40(Quick Sort)",
+      "type": "directory",
+      "path": "data/LEC-40(Quick Sort)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Quick_Sort.cpp",
+          "displayName": "Quick Sort.cpp",
+          "type": "file",
+          "path": "data/LEC-40(Quick Sort)/Quick_Sort.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-41-1(Count Sort & Radix Sort)",
+      "displayName": "LEC-41-1(Count Sort & Radix Sort)",
+      "type": "directory",
+      "path": "data/LEC-41-1(Count Sort & Radix Sort)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Count_Sort.cpp",
+          "displayName": "Count Sort.cpp",
+          "type": "file",
+          "path": "data/LEC-41-1(Count Sort & Radix Sort)/Count_Sort.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Radix_Sort.cpp",
+          "displayName": "Radix Sort.cpp",
+          "type": "file",
+          "path": "data/LEC-41-1(Count Sort & Radix Sort)/Radix_Sort.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-41-2(Bucket Sort)",
+      "displayName": "LEC-41-2(Bucket Sort)",
+      "type": "directory",
+      "path": "data/LEC-41-2(Bucket Sort)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Bucket_sort_element_greater_than_1.cpp",
+          "displayName": "Bucket sort element greater than 1.cpp",
+          "type": "file",
+          "path": "data/LEC-41-2(Bucket Sort)/Bucket_sort_element_greater_than_1.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Bucket_Sort.cpp",
+          "displayName": "Bucket Sort.cpp",
+          "type": "file",
+          "path": "data/LEC-41-2(Bucket Sort)/Bucket_Sort.cpp",
+          "depth": 1
+        },
+        {
+          "name": "BucketSort_optimised_maam_apprpach.cpp",
+          "displayName": "BucketSort optimised maam apprpach.cpp",
+          "type": "file",
+          "path": "data/LEC-41-2(Bucket Sort)/BucketSort_optimised_maam_apprpach.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-42(Problems on Sorting Algorithm Part-2)",
+      "displayName": "LEC-42(Problems on Sorting Algorithm Part-2)",
+      "type": "directory",
+      "path": "data/LEC-42(Problems on Sorting Algorithm Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "K-th_smalest_element-Maam_approach.cpp",
+          "displayName": "K-th smalest element-Maam approach.cpp",
+          "type": "file",
+          "path": "data/LEC-42(Problems on Sorting Algorithm Part-2)/K-th_smalest_element-Maam_approach.cpp",
+          "depth": 1
+        },
+        {
+          "name": "K-th_smalest_element.cpp",
+          "displayName": "K-th smalest element.cpp",
+          "type": "file",
+          "path": "data/LEC-42(Problems on Sorting Algorithm Part-2)/K-th_smalest_element.cpp",
+          "depth": 1
+        },
+        {
+          "name": "merge_2_sorted_arrays.cpp",
+          "displayName": "merge 2 sorted arrays.cpp",
+          "type": "file",
+          "path": "data/LEC-42(Problems on Sorting Algorithm Part-2)/merge_2_sorted_arrays.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-43(Problems on Sorting Algorithm Part-3)",
+      "displayName": "LEC-43(Problems on Sorting Algorithm Part-3)",
+      "type": "directory",
+      "path": "data/LEC-43(Problems on Sorting Algorithm Part-3)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "sort_by_swapping_two_elements.cpp",
+          "displayName": "sort by swapping two elements.cpp",
+          "type": "file",
+          "path": "data/LEC-43(Problems on Sorting Algorithm Part-3)/sort_by_swapping_two_elements.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-44(Binary Search)",
+      "displayName": "LEC-44(Binary Search)",
+      "type": "directory",
+      "path": "data/LEC-44(Binary Search)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Binary_Search_Algorithm.cpp",
+          "displayName": "Binary Search Algorithm.cpp",
+          "type": "file",
+          "path": "data/LEC-44(Binary Search)/Binary_Search_Algorithm.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Binary_Search_Using_Recursion.cpp",
+          "displayName": "Binary Search Using Recursion.cpp",
+          "type": "file",
+          "path": "data/LEC-44(Binary Search)/Binary_Search_Using_Recursion.cpp",
+          "depth": 1
+        },
+        {
+          "name": "first_occurrence_of_x.cpp",
+          "displayName": "first occurrence of x.cpp",
+          "type": "file",
+          "path": "data/LEC-44(Binary Search)/first_occurrence_of_x.cpp",
+          "depth": 1
+        },
+        {
+          "name": "square_root_of_x.cpp",
+          "displayName": "square root of x.cpp",
+          "type": "file",
+          "path": "data/LEC-44(Binary Search)/square_root_of_x.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-45(Problems on Binary Search Part-1)",
+      "displayName": "LEC-45(Problems on Binary Search Part-1)",
+      "type": "directory",
+      "path": "data/LEC-45(Problems on Binary Search Part-1)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "first_and_last_position_of_x.cpp",
+          "displayName": "first and last position of x.cpp",
+          "type": "file",
+          "path": "data/LEC-45(Problems on Binary Search Part-1)/first_and_last_position_of_x.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Methode-2_first_and_last_position_of_x.cpp",
+          "displayName": "Methode-2 first and last position of x.cpp",
+          "type": "file",
+          "path": "data/LEC-45(Problems on Binary Search Part-1)/Methode-2_first_and_last_position_of_x.cpp",
+          "depth": 1
+        },
+        {
+          "name": "minimum_in_rotated_sorted_array.cpp",
+          "displayName": "minimum in rotated sorted array.cpp",
+          "type": "file",
+          "path": "data/LEC-45(Problems on Binary Search Part-1)/minimum_in_rotated_sorted_array.cpp",
+          "depth": 1
+        },
+        {
+          "name": "search_in_sorted_rotated_array_with_duplicate_element.cpp",
+          "displayName": "search in sorted rotated array with duplicate element.cpp",
+          "type": "file",
+          "path": "data/LEC-45(Problems on Binary Search Part-1)/search_in_sorted_rotated_array_with_duplicate_element.cpp",
+          "depth": 1
+        },
+        {
+          "name": "search_in_sorted_rotated_array.cpp",
+          "displayName": "search in sorted rotated array.cpp",
+          "type": "file",
+          "path": "data/LEC-45(Problems on Binary Search Part-1)/search_in_sorted_rotated_array.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-46(Problems on Binary Search Part-2)",
+      "displayName": "LEC-46(Problems on Binary Search Part-2)",
+      "type": "directory",
+      "path": "data/LEC-46(Problems on Binary Search Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Binary_Search_in_2D_Array.cpp",
+          "displayName": "Binary Search in 2D Array.cpp",
+          "type": "file",
+          "path": "data/LEC-46(Problems on Binary Search Part-2)/Binary_Search_in_2D_Array.cpp",
+          "depth": 1
+        },
+        {
+          "name": "peak_element_in_mountain_array.cpp",
+          "displayName": "peak element in mountain array.cpp",
+          "type": "file",
+          "path": "data/LEC-46(Problems on Binary Search Part-2)/peak_element_in_mountain_array.cpp",
+          "depth": 1
+        },
+        {
+          "name": "peak_element.cpp",
+          "displayName": "peak element.cpp",
+          "type": "file",
+          "path": "data/LEC-46(Problems on Binary Search Part-2)/peak_element.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-47(Problems on Binary Search Part-3)",
+      "displayName": "LEC-47(Problems on Binary Search Part-3)",
+      "type": "directory",
+      "path": "data/LEC-47(Problems on Binary Search Part-3)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Chocolate_Ditribution.cpp",
+          "displayName": "Chocolate Ditribution.cpp",
+          "type": "file",
+          "path": "data/LEC-47(Problems on Binary Search Part-3)/Chocolate_Ditribution.cpp",
+          "depth": 1
+        },
+        {
+          "name": "race.cpp",
+          "displayName": "race.cpp",
+          "type": "file",
+          "path": "data/LEC-47(Problems on Binary Search Part-3)/race.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-48(Strings in C++ One Shot)",
+      "displayName": "LEC-48(Strings in C++ One Shot)",
+      "type": "directory",
+      "path": "data/LEC-48(Strings in C++ One Shot)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "anagram_string.cpp",
+          "displayName": "anagram string.cpp",
+          "type": "file",
+          "path": "data/LEC-48(Strings in C++ One Shot)/anagram_string.cpp",
+          "depth": 1
+        },
+        {
+          "name": "encoded_to_decoded_string.cpp",
+          "displayName": "encoded to decoded string.cpp",
+          "type": "file",
+          "path": "data/LEC-48(Strings in C++ One Shot)/encoded_to_decoded_string.cpp",
+          "depth": 1
+        },
+        {
+          "name": "isomorphic_string.cpp",
+          "displayName": "isomorphic string.cpp",
+          "type": "file",
+          "path": "data/LEC-48(Strings in C++ One Shot)/isomorphic_string.cpp",
+          "depth": 1
+        },
+        {
+          "name": "longest_common_prefix.cpp",
+          "displayName": "longest common prefix.cpp",
+          "type": "file",
+          "path": "data/LEC-48(Strings in C++ One Shot)/longest_common_prefix.cpp",
+          "depth": 1
+        },
+        {
+          "name": "longest_ones_in_a_binary_string.cpp",
+          "displayName": "longest ones in a binary string.cpp",
+          "type": "file",
+          "path": "data/LEC-48(Strings in C++ One Shot)/longest_ones_in_a_binary_string.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Sort_String.cpp",
+          "displayName": "Sort String.cpp",
+          "type": "file",
+          "path": "data/LEC-48(Strings in C++ One Shot)/Sort_String.cpp",
+          "depth": 1
+        },
+        {
+          "name": "String_Functions.cpp",
+          "displayName": "String Functions.cpp",
+          "type": "file",
+          "path": "data/LEC-48(Strings in C++ One Shot)/String_Functions.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Strings.cpp",
+          "displayName": "Strings.cpp",
+          "type": "file",
+          "path": "data/LEC-48(Strings in C++ One Shot)/Strings.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-49(OOPs One Shot)",
+      "displayName": "LEC-49(OOPs One Shot)",
+      "type": "directory",
+      "path": "data/LEC-49(OOPs One Shot)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "constructors.cpp",
+          "displayName": "constructors.cpp",
+          "type": "file",
+          "path": "data/LEC-49(OOPs One Shot)/constructors.cpp",
+          "depth": 1
+        },
+        {
+          "name": "diamond_problem.cpp",
+          "displayName": "diamond problem.cpp",
+          "type": "file",
+          "path": "data/LEC-49(OOPs One Shot)/diamond_problem.cpp",
+          "depth": 1
+        },
+        {
+          "name": "dynamic_binding.cpp",
+          "displayName": "dynamic binding.cpp",
+          "type": "file",
+          "path": "data/LEC-49(OOPs One Shot)/dynamic_binding.cpp",
+          "depth": 1
+        },
+        {
+          "name": "encapsulation.cpp",
+          "displayName": "encapsulation.cpp",
+          "type": "file",
+          "path": "data/LEC-49(OOPs One Shot)/encapsulation.cpp",
+          "depth": 1
+        },
+        {
+          "name": "frinend_function.cpp",
+          "displayName": "frinend function.cpp",
+          "type": "file",
+          "path": "data/LEC-49(OOPs One Shot)/frinend_function.cpp",
+          "depth": 1
+        },
+        {
+          "name": "function_overload.cpp",
+          "displayName": "function overload.cpp",
+          "type": "file",
+          "path": "data/LEC-49(OOPs One Shot)/function_overload.cpp",
+          "depth": 1
+        },
+        {
+          "name": "inheritance_types.cpp",
+          "displayName": "inheritance types.cpp",
+          "type": "file",
+          "path": "data/LEC-49(OOPs One Shot)/inheritance_types.cpp",
+          "depth": 1
+        },
+        {
+          "name": "inheritance.cpp",
+          "displayName": "inheritance.cpp",
+          "type": "file",
+          "path": "data/LEC-49(OOPs One Shot)/inheritance.cpp",
+          "depth": 1
+        },
+        {
+          "name": "message_passing.cpp",
+          "displayName": "message passing.cpp",
+          "type": "file",
+          "path": "data/LEC-49(OOPs One Shot)/message_passing.cpp",
+          "depth": 1
+        },
+        {
+          "name": "oops.cpp",
+          "displayName": "oops.cpp",
+          "type": "file",
+          "path": "data/LEC-49(OOPs One Shot)/oops.cpp",
+          "depth": 1
+        },
+        {
+          "name": "operator_overloading.cpp",
+          "displayName": "operator overloading.cpp",
+          "type": "file",
+          "path": "data/LEC-49(OOPs One Shot)/operator_overloading.cpp",
+          "depth": 1
+        },
+        {
+          "name": "runtime_polymorphism-function_overridding.cpp",
+          "displayName": "runtime polymorphism-function overridding.cpp",
+          "type": "file",
+          "path": "data/LEC-49(OOPs One Shot)/runtime_polymorphism-function_overridding.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-50(Linked List Part-1)",
+      "displayName": "LEC-50(Linked List Part-1)",
+      "type": "directory",
+      "path": "data/LEC-50(Linked List Part-1)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Problems",
+          "displayName": "Problems",
+          "type": "directory",
+          "path": "data/LEC-50(Linked List Part-1)/Problems",
+          "depth": 1,
+          "children": [
+            {
+              "name": "delete_alternate_node.cpp",
+              "displayName": "delete alternate node.cpp",
+              "type": "file",
+              "path": "data/LEC-50(Linked List Part-1)/Problems/delete_alternate_node.cpp",
+              "depth": 2
+            },
+            {
+              "name": "delete_duplicate_nodes.cpp",
+              "displayName": "delete duplicate nodes.cpp",
+              "type": "file",
+              "path": "data/LEC-50(Linked List Part-1)/Problems/delete_duplicate_nodes.cpp",
+              "depth": 2
+            },
+            {
+              "name": "reverse_k_at_a_time.cpp",
+              "displayName": "reverse k at a time.cpp",
+              "type": "file",
+              "path": "data/LEC-50(Linked List Part-1)/Problems/reverse_k_at_a_time.cpp",
+              "depth": 2
+            },
+            {
+              "name": "Reverse_Linked_List.cpp",
+              "displayName": "Reverse Linked List.cpp",
+              "type": "file",
+              "path": "data/LEC-50(Linked List Part-1)/Problems/Reverse_Linked_List.cpp",
+              "depth": 2
+            },
+            {
+              "name": "reverse_print_linked_list.cpp",
+              "displayName": "reverse print linked list.cpp",
+              "type": "file",
+              "path": "data/LEC-50(Linked List Part-1)/Problems/reverse_print_linked_list.cpp",
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "Deletion.cpp",
+          "displayName": "Deletion.cpp",
+          "type": "file",
+          "path": "data/LEC-50(Linked List Part-1)/Deletion.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Incertion.cpp",
+          "displayName": "Incertion.cpp",
+          "type": "file",
+          "path": "data/LEC-50(Linked List Part-1)/Incertion.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Linked_List.cpp",
+          "displayName": "Linked List.cpp",
+          "type": "file",
+          "path": "data/LEC-50(Linked List Part-1)/Linked_List.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Updation.cpp",
+          "displayName": "Updation.cpp",
+          "type": "file",
+          "path": "data/LEC-50(Linked List Part-1)/Updation.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-51(Linked List Part-2)",
+      "displayName": "LEC-51(Linked List Part-2)",
+      "type": "directory",
+      "path": "data/LEC-51(Linked List Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "add_One_to_a_Linked_list-GFG.cpp",
+          "displayName": "add One to a Linked list-GFG.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/add_One_to_a_Linked_list-GFG.cpp",
+          "depth": 1
+        },
+        {
+          "name": "detect_cycle_in_linked_list.cpp",
+          "displayName": "detect cycle in linked list.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/detect_cycle_in_linked_list.cpp",
+          "depth": 1
+        },
+        {
+          "name": "equal_linked_list.cpp",
+          "displayName": "equal linked list.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/equal_linked_list.cpp",
+          "depth": 1
+        },
+        {
+          "name": "find_middle_element.cpp",
+          "displayName": "find middle element.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/find_middle_element.cpp",
+          "depth": 1
+        },
+        {
+          "name": "intersect_node.cpp",
+          "displayName": "intersect node.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/intersect_node.cpp",
+          "depth": 1
+        },
+        {
+          "name": "isPalindrome.cpp",
+          "displayName": "isPalindrome.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/isPalindrome.cpp",
+          "depth": 1
+        },
+        {
+          "name": "merge_k_linked_list.cpp",
+          "displayName": "merge k linked list.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/merge_k_linked_list.cpp",
+          "depth": 1
+        },
+        {
+          "name": "merge_two_sorted_linked_list.cpp",
+          "displayName": "merge two sorted linked list.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/merge_two_sorted_linked_list.cpp",
+          "depth": 1
+        },
+        {
+          "name": "oddEvenLinkedList.cpp",
+          "displayName": "oddEvenLinkedList.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/oddEvenLinkedList.cpp",
+          "depth": 1
+        },
+        {
+          "name": "remove_kth_node_from_end.cpp",
+          "displayName": "remove kth node from end.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/remove_kth_node_from_end.cpp",
+          "depth": 1
+        },
+        {
+          "name": "reorderdLinkedList.cpp",
+          "displayName": "reorderdLinkedList.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/reorderdLinkedList.cpp",
+          "depth": 1
+        },
+        {
+          "name": "rotate_linked_list.cpp",
+          "displayName": "rotate linked list.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/rotate_linked_list.cpp",
+          "depth": 1
+        },
+        {
+          "name": "swapAdjcent.cpp",
+          "displayName": "swapAdjcent.cpp",
+          "type": "file",
+          "path": "data/LEC-51(Linked List Part-2)/swapAdjcent.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-52(Linked List Part-3) Doubly LinkedList",
+      "displayName": "LEC-52(Linked List Part-3) Doubly LinkedList",
+      "type": "directory",
+      "path": "data/LEC-52(Linked List Part-3) Doubly LinkedList",
+      "depth": 0,
+      "children": [
+        {
+          "name": "delete_same_neighbour_DLL.cpp",
+          "displayName": "delete same neighbour DLL.cpp",
+          "type": "file",
+          "path": "data/LEC-52(Linked List Part-3) Doubly LinkedList/delete_same_neighbour_DLL.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Doubly_Linked_List.cpp",
+          "displayName": "Doubly Linked List.cpp",
+          "type": "file",
+          "path": "data/LEC-52(Linked List Part-3) Doubly LinkedList/Doubly_Linked_List.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Insertion_and_Deletion.cpp",
+          "displayName": "Insertion and Deletion.cpp",
+          "type": "file",
+          "path": "data/LEC-52(Linked List Part-3) Doubly LinkedList/Insertion_and_Deletion.cpp",
+          "depth": 1
+        },
+        {
+          "name": "min_max_distance_between_critical_points.cpp",
+          "displayName": "min max distance between critical points.cpp",
+          "type": "file",
+          "path": "data/LEC-52(Linked List Part-3) Doubly LinkedList/min_max_distance_between_critical_points.cpp",
+          "depth": 1
+        },
+        {
+          "name": "pair_sum_DLL.cpp",
+          "displayName": "pair sum DLL.cpp",
+          "type": "file",
+          "path": "data/LEC-52(Linked List Part-3) Doubly LinkedList/pair_sum_DLL.cpp",
+          "depth": 1
+        },
+        {
+          "name": "palindrome_DLL.cpp",
+          "displayName": "palindrome DLL.cpp",
+          "type": "file",
+          "path": "data/LEC-52(Linked List Part-3) Doubly LinkedList/palindrome_DLL.cpp",
+          "depth": 1
+        },
+        {
+          "name": "reverse_doubly_linked_list.cpp",
+          "displayName": "reverse doubly linked list.cpp",
+          "type": "file",
+          "path": "data/LEC-52(Linked List Part-3) Doubly LinkedList/reverse_doubly_linked_list.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-53(Linked List Part-4) Circular LinkedList and STL List",
+      "displayName": "LEC-53(Linked List Part-4) Circular LinkedList and STL List",
+      "type": "directory",
+      "path": "data/LEC-53(Linked List Part-4) Circular LinkedList and STL List",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Circular_Linked_List.cpp",
+          "displayName": "Circular Linked List.cpp",
+          "type": "file",
+          "path": "data/LEC-53(Linked List Part-4) Circular LinkedList and STL List/Circular_Linked_List.cpp",
+          "depth": 1
+        },
+        {
+          "name": "STL_list.cpp",
+          "displayName": "STL list.cpp",
+          "type": "file",
+          "path": "data/LEC-53(Linked List Part-4) Circular LinkedList and STL List/STL_list.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Template_Class.cpp",
+          "displayName": "Template Class.cpp",
+          "type": "file",
+          "path": "data/LEC-53(Linked List Part-4) Circular LinkedList and STL List/Template_Class.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-54(Stack)",
+      "displayName": "LEC-54(Stack)",
+      "type": "directory",
+      "path": "data/LEC-54(Stack)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "copy_stack.cpp",
+          "displayName": "copy stack.cpp",
+          "type": "file",
+          "path": "data/LEC-54(Stack)/copy_stack.cpp",
+          "depth": 1
+        },
+        {
+          "name": "insert_at_any_index.cpp",
+          "displayName": "insert at any index.cpp",
+          "type": "file",
+          "path": "data/LEC-54(Stack)/insert_at_any_index.cpp",
+          "depth": 1
+        },
+        {
+          "name": "insert_at_bottom.cpp",
+          "displayName": "insert at bottom.cpp",
+          "type": "file",
+          "path": "data/LEC-54(Stack)/insert_at_bottom.cpp",
+          "depth": 1
+        },
+        {
+          "name": "remove_from_any_index.cpp",
+          "displayName": "remove from any index.cpp",
+          "type": "file",
+          "path": "data/LEC-54(Stack)/remove_from_any_index.cpp",
+          "depth": 1
+        },
+        {
+          "name": "remove_from_bottom.cpp",
+          "displayName": "remove from bottom.cpp",
+          "type": "file",
+          "path": "data/LEC-54(Stack)/remove_from_bottom.cpp",
+          "depth": 1
+        },
+        {
+          "name": "reverse_stack.cpp",
+          "displayName": "reverse stack.cpp",
+          "type": "file",
+          "path": "data/LEC-54(Stack)/reverse_stack.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Stack_STL.cpp",
+          "displayName": "Stack STL.cpp",
+          "type": "file",
+          "path": "data/LEC-54(Stack)/Stack_STL.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Stack_using_Arrays.cpp",
+          "displayName": "Stack using Arrays.cpp",
+          "type": "file",
+          "path": "data/LEC-54(Stack)/Stack_using_Arrays.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Stack_using_Linkde_List.cpp",
+          "displayName": "Stack using Linkde List.cpp",
+          "type": "file",
+          "path": "data/LEC-54(Stack)/Stack_using_Linkde_List.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-55(Problems on Stack Part-1)",
+      "displayName": "LEC-55(Problems on Stack Part-1)",
+      "type": "directory",
+      "path": "data/LEC-55(Problems on Stack Part-1)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "balanced_bracket_sequence.cpp",
+          "displayName": "balanced bracket sequence.cpp",
+          "type": "file",
+          "path": "data/LEC-55(Problems on Stack Part-1)/balanced_bracket_sequence.cpp",
+          "depth": 1
+        },
+        {
+          "name": "largest_rectangle_in_Histogram.cpp",
+          "displayName": "largest rectangle in Histogram.cpp",
+          "type": "file",
+          "path": "data/LEC-55(Problems on Stack Part-1)/largest_rectangle_in_Histogram.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Next_Greater_Element_array.cpp",
+          "displayName": "Next Greater Element array.cpp",
+          "type": "file",
+          "path": "data/LEC-55(Problems on Stack Part-1)/Next_Greater_Element_array.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Next_Smaller_Element.cpp",
+          "displayName": "Next Smaller Element.cpp",
+          "type": "file",
+          "path": "data/LEC-55(Problems on Stack Part-1)/Next_Smaller_Element.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Prev_Greater_Smaller_Element.cpp",
+          "displayName": "Prev Greater Smaller Element.cpp",
+          "type": "file",
+          "path": "data/LEC-55(Problems on Stack Part-1)/Prev_Greater_Smaller_Element.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Stock_Span_problem.cpp",
+          "displayName": "Stock Span problem.cpp",
+          "type": "file",
+          "path": "data/LEC-55(Problems on Stack Part-1)/Stock_Span_problem.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-56(Problems on Stack Part-2)",
+      "displayName": "LEC-56(Problems on Stack Part-2)",
+      "type": "directory",
+      "path": "data/LEC-56(Problems on Stack Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "conversion_prefix_to_postfix.cpp",
+          "displayName": "conversion prefix to postfix.cpp",
+          "type": "file",
+          "path": "data/LEC-56(Problems on Stack Part-2)/conversion_prefix_to_postfix.cpp",
+          "depth": 1
+        },
+        {
+          "name": "delete_minium_brackets.cpp",
+          "displayName": "delete minium brackets.cpp",
+          "type": "file",
+          "path": "data/LEC-56(Problems on Stack Part-2)/delete_minium_brackets.cpp",
+          "depth": 1
+        },
+        {
+          "name": "getMin_in_O_1_time_space_complexity.cpp",
+          "displayName": "getMin in O 1 time space complexity.cpp",
+          "type": "file",
+          "path": "data/LEC-56(Problems on Stack Part-2)/getMin_in_O_1_time_space_complexity.cpp",
+          "depth": 1
+        },
+        {
+          "name": "infix_expression.cpp",
+          "displayName": "infix expression.cpp",
+          "type": "file",
+          "path": "data/LEC-56(Problems on Stack Part-2)/infix_expression.cpp",
+          "depth": 1
+        },
+        {
+          "name": "postfix_expression.cpp",
+          "displayName": "postfix expression.cpp",
+          "type": "file",
+          "path": "data/LEC-56(Problems on Stack Part-2)/postfix_expression.cpp",
+          "depth": 1
+        },
+        {
+          "name": "prefix_expression.cpp",
+          "displayName": "prefix expression.cpp",
+          "type": "file",
+          "path": "data/LEC-56(Problems on Stack Part-2)/prefix_expression.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sortStack.cpp",
+          "displayName": "sortStack.cpp",
+          "type": "file",
+          "path": "data/LEC-56(Problems on Stack Part-2)/sortStack.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-57(Queue)",
+      "displayName": "LEC-57(Queue)",
+      "type": "directory",
+      "path": "data/LEC-57(Queue)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Queue_STL.cpp",
+          "displayName": "Queue STL.cpp",
+          "type": "file",
+          "path": "data/LEC-57(Queue)/Queue_STL.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Queue_using_array.cpp",
+          "displayName": "Queue using array.cpp",
+          "type": "file",
+          "path": "data/LEC-57(Queue)/Queue_using_array.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Queue_using_Linked_list.cpp",
+          "displayName": "Queue using Linked list.cpp",
+          "type": "file",
+          "path": "data/LEC-57(Queue)/Queue_using_Linked_list.cpp",
+          "depth": 1
+        },
+        {
+          "name": "reverse_queue.cpp",
+          "displayName": "reverse queue.cpp",
+          "type": "file",
+          "path": "data/LEC-57(Queue)/reverse_queue.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-58(Queue Part-2)",
+      "displayName": "LEC-58(Queue Part-2)",
+      "type": "directory",
+      "path": "data/LEC-58(Queue Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "Circular_Queue.cpp",
+          "displayName": "Circular Queue.cpp",
+          "type": "file",
+          "path": "data/LEC-58(Queue Part-2)/Circular_Queue.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Deque_STL.cpp",
+          "displayName": "Deque STL.cpp",
+          "type": "file",
+          "path": "data/LEC-58(Queue Part-2)/Deque_STL.cpp",
+          "depth": 1
+        },
+        {
+          "name": "implement_queue_using_stack_pop_efficient.cpp",
+          "displayName": "implement queue using stack pop efficient.cpp",
+          "type": "file",
+          "path": "data/LEC-58(Queue Part-2)/implement_queue_using_stack_pop_efficient.cpp",
+          "depth": 1
+        },
+        {
+          "name": "implement_queue_using_stack_push_efficient.cpp",
+          "displayName": "implement queue using stack push efficient.cpp",
+          "type": "file",
+          "path": "data/LEC-58(Queue Part-2)/implement_queue_using_stack_push_efficient.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sliding_window.cpp",
+          "displayName": "sliding window.cpp",
+          "type": "file",
+          "path": "data/LEC-58(Queue Part-2)/sliding_window.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-59(SET)",
+      "displayName": "LEC-59(SET)",
+      "type": "directory",
+      "path": "data/LEC-59(SET)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "all_english_alphabets.cpp",
+          "displayName": "all english alphabets.cpp",
+          "type": "file",
+          "path": "data/LEC-59(SET)/all_english_alphabets.cpp",
+          "depth": 1
+        },
+        {
+          "name": "birthday_invitelist.cpp",
+          "displayName": "birthday invitelist.cpp",
+          "type": "file",
+          "path": "data/LEC-59(SET)/birthday_invitelist.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Member_Function_of_SET.cpp",
+          "displayName": "Member Function of SET.cpp",
+          "type": "file",
+          "path": "data/LEC-59(SET)/Member_Function_of_SET.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Multiset.cpp",
+          "displayName": "Multiset.cpp",
+          "type": "file",
+          "path": "data/LEC-59(SET)/Multiset.cpp",
+          "depth": 1
+        },
+        {
+          "name": "possible_marks.cpp",
+          "displayName": "possible marks.cpp",
+          "type": "file",
+          "path": "data/LEC-59(SET)/possible_marks.cpp",
+          "depth": 1
+        },
+        {
+          "name": "SET_STL_implementation.cpp",
+          "displayName": "SET STL implementation.cpp",
+          "type": "file",
+          "path": "data/LEC-59(SET)/SET_STL_implementation.cpp",
+          "depth": 1
+        },
+        {
+          "name": "smalest_integer.cpp",
+          "displayName": "smalest integer.cpp",
+          "type": "file",
+          "path": "data/LEC-59(SET)/smalest_integer.cpp",
+          "depth": 1
+        },
+        {
+          "name": "sum_of_common_elements.cpp",
+          "displayName": "sum of common elements.cpp",
+          "type": "file",
+          "path": "data/LEC-59(SET)/sum_of_common_elements.cpp",
+          "depth": 1
+        },
+        {
+          "name": "unordered_multiset.cpp",
+          "displayName": "unordered multiset.cpp",
+          "type": "file",
+          "path": "data/LEC-59(SET)/unordered_multiset.cpp",
+          "depth": 1
+        },
+        {
+          "name": "unordered_set.cpp",
+          "displayName": "unordered set.cpp",
+          "type": "file",
+          "path": "data/LEC-59(SET)/unordered_set.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-60(Hashing)",
+      "displayName": "LEC-60(Hashing)",
+      "type": "directory",
+      "path": "data/LEC-60(Hashing)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "hashing.cpp",
+          "displayName": "hashing.cpp",
+          "type": "file",
+          "path": "data/LEC-60(Hashing)/hashing.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-61(Hashmap)",
+      "displayName": "LEC-61(Hashmap)",
+      "type": "directory",
+      "path": "data/LEC-61(Hashmap)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "add_repetative.cpp",
+          "displayName": "add repetative.cpp",
+          "type": "file",
+          "path": "data/LEC-61(Hashmap)/add_repetative.cpp",
+          "depth": 1
+        },
+        {
+          "name": "HashMap.cpp",
+          "displayName": "HashMap.cpp",
+          "type": "file",
+          "path": "data/LEC-61(Hashmap)/HashMap.cpp",
+          "depth": 1
+        },
+        {
+          "name": "mcq.cpp",
+          "displayName": "mcq.cpp",
+          "type": "file",
+          "path": "data/LEC-61(Hashmap)/mcq.cpp",
+          "depth": 1
+        },
+        {
+          "name": "MultiMap.cpp",
+          "displayName": "MultiMap.cpp",
+          "type": "file",
+          "path": "data/LEC-61(Hashmap)/MultiMap.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Unordered_HashMap.cpp",
+          "displayName": "Unordered HashMap.cpp",
+          "type": "file",
+          "path": "data/LEC-61(Hashmap)/Unordered_HashMap.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Unordered_Multimap.cpp",
+          "displayName": "Unordered Multimap.cpp",
+          "type": "file",
+          "path": "data/LEC-61(Hashmap)/Unordered_Multimap.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-62(Problems on Hashmap)",
+      "displayName": "LEC-62(Problems on Hashmap)",
+      "type": "directory",
+      "path": "data/LEC-62(Problems on Hashmap)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "anagram.cpp",
+          "displayName": "anagram.cpp",
+          "type": "file",
+          "path": "data/LEC-62(Problems on Hashmap)/anagram.cpp",
+          "depth": 1
+        },
+        {
+          "name": "isomorphic.cpp",
+          "displayName": "isomorphic.cpp",
+          "type": "file",
+          "path": "data/LEC-62(Problems on Hashmap)/isomorphic.cpp",
+          "depth": 1
+        },
+        {
+          "name": "longest_subarray.cpp",
+          "displayName": "longest subarray.cpp",
+          "type": "file",
+          "path": "data/LEC-62(Problems on Hashmap)/longest_subarray.cpp",
+          "depth": 1
+        },
+        {
+          "name": "make_string_equal.cpp",
+          "displayName": "make string equal.cpp",
+          "type": "file",
+          "path": "data/LEC-62(Problems on Hashmap)/make_string_equal.cpp",
+          "depth": 1
+        },
+        {
+          "name": "targetSum_pair_index.cpp",
+          "displayName": "targetSum pair index.cpp",
+          "type": "file",
+          "path": "data/LEC-62(Problems on Hashmap)/targetSum_pair_index.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-63(Backtracking)",
+      "displayName": "LEC-63(Backtracking)",
+      "type": "directory",
+      "path": "data/LEC-63(Backtracking)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "permutation.cpp",
+          "displayName": "permutation.cpp",
+          "type": "file",
+          "path": "data/LEC-63(Backtracking)/permutation.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Rat_in_a_maze-GFG.cpp",
+          "displayName": "Rat in a maze-GFG.cpp",
+          "type": "file",
+          "path": "data/LEC-63(Backtracking)/Rat_in_a_maze-GFG.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Rat_in_a_maze.cpp",
+          "displayName": "Rat in a maze.cpp",
+          "type": "file",
+          "path": "data/LEC-63(Backtracking)/Rat_in_a_maze.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-64(Backtracking Part-2)",
+      "displayName": "LEC-64(Backtracking Part-2)",
+      "type": "directory",
+      "path": "data/LEC-64(Backtracking Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "P-6_Knights_Tour.cpp",
+          "displayName": "P-6 Knights Tour.cpp",
+          "type": "file",
+          "path": "data/LEC-64(Backtracking Part-2)/P-6_Knights_Tour.cpp",
+          "depth": 1
+        },
+        {
+          "name": "P-7_Combination_Sum-II.cpp",
+          "displayName": "P-7 Combination Sum-II.cpp",
+          "type": "file",
+          "path": "data/LEC-64(Backtracking Part-2)/P-7_Combination_Sum-II.cpp",
+          "depth": 1
+        },
+        {
+          "name": "P-8_Combination_Sum-I.cpp",
+          "displayName": "P-8 Combination Sum-I.cpp",
+          "type": "file",
+          "path": "data/LEC-64(Backtracking Part-2)/P-8_Combination_Sum-I.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-65(Binary Tree - 1)",
+      "displayName": "LEC-65(Binary Tree - 1)",
+      "type": "directory",
+      "path": "data/LEC-65(Binary Tree - 1)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "07_Balanced_BT.cpp",
+          "displayName": "07 Balanced BT.cpp",
+          "type": "file",
+          "path": "data/LEC-65(Binary Tree - 1)/07_Balanced_BT.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Binary_tree.cpp",
+          "displayName": "Binary tree.cpp",
+          "type": "file",
+          "path": "data/LEC-65(Binary Tree - 1)/Binary_tree.cpp",
+          "depth": 1
+        },
+        {
+          "name": "In_Order_Traversal-DFS.cpp",
+          "displayName": "In Order Traversal-DFS.cpp",
+          "type": "file",
+          "path": "data/LEC-65(Binary Tree - 1)/In_Order_Traversal-DFS.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Level_Order_Traversal-BFS.cpp",
+          "displayName": "Level Order Traversal-BFS.cpp",
+          "type": "file",
+          "path": "data/LEC-65(Binary Tree - 1)/Level_Order_Traversal-BFS.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Post_Order_Traversal-DFS.cpp",
+          "displayName": "Post Order Traversal-DFS.cpp",
+          "type": "file",
+          "path": "data/LEC-65(Binary Tree - 1)/Post_Order_Traversal-DFS.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Pre_Order_Traversal-DFS.cpp",
+          "displayName": "Pre Order Traversal-DFS.cpp",
+          "type": "file",
+          "path": "data/LEC-65(Binary Tree - 1)/Pre_Order_Traversal-DFS.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Q1_Maximum_depth.cpp",
+          "displayName": "Q1 Maximum depth.cpp",
+          "type": "file",
+          "path": "data/LEC-65(Binary Tree - 1)/Q1_Maximum_depth.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Q2_number_of_leaf_nodes.cpp",
+          "displayName": "Q2 number of leaf nodes.cpp",
+          "type": "file",
+          "path": "data/LEC-65(Binary Tree - 1)/Q2_number_of_leaf_nodes.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Q3_Right_view_Binary_tree.cpp",
+          "displayName": "Q3 Right view Binary tree.cpp",
+          "type": "file",
+          "path": "data/LEC-65(Binary Tree - 1)/Q3_Right_view_Binary_tree.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Q4_Top_view_binary_tree.cpp",
+          "displayName": "Q4 Top view binary tree.cpp",
+          "type": "file",
+          "path": "data/LEC-65(Binary Tree - 1)/Q4_Top_view_binary_tree.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Q5_Down_view_binary_tree.cpp",
+          "displayName": "Q5 Down view binary tree.cpp",
+          "type": "file",
+          "path": "data/LEC-65(Binary Tree - 1)/Q5_Down_view_binary_tree.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Q6_Reverse_Level_Order.cpp",
+          "displayName": "Q6 Reverse Level Order.cpp",
+          "type": "file",
+          "path": "data/LEC-65(Binary Tree - 1)/Q6_Reverse_Level_Order.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-66(Interview problems on Binary Trees)",
+      "displayName": "LEC-66(Interview problems on Binary Trees)",
+      "type": "directory",
+      "path": "data/LEC-66(Interview problems on Binary Trees)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Path_sum.cpp",
+          "displayName": "01 Path sum.cpp",
+          "type": "file",
+          "path": "data/LEC-66(Interview problems on Binary Trees)/01_Path_sum.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_Max_Path_Sum.cpp",
+          "displayName": "02 Max Path Sum.cpp",
+          "type": "file",
+          "path": "data/LEC-66(Interview problems on Binary Trees)/02_Max_Path_Sum.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Binary_Tree_from_pre_and_in_order.cpp",
+          "displayName": "03 Binary Tree from pre and in order.cpp",
+          "type": "file",
+          "path": "data/LEC-66(Interview problems on Binary Trees)/03_Binary_Tree_from_pre_and_in_order.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Binary_Tree_from_in_and_post_order.cpp",
+          "displayName": "04 Binary Tree from in and post order.cpp",
+          "type": "file",
+          "path": "data/LEC-66(Interview problems on Binary Trees)/04_Binary_Tree_from_in_and_post_order.cpp",
+          "depth": 1
+        },
+        {
+          "name": "05_Binary_Tree_from_pre_and_post_order.cpp",
+          "displayName": "05 Binary Tree from pre and post order.cpp",
+          "type": "file",
+          "path": "data/LEC-66(Interview problems on Binary Trees)/05_Binary_Tree_from_pre_and_post_order.cpp",
+          "depth": 1
+        },
+        {
+          "name": "06_Flatten_binary_tree_to_Linked_list.cpp",
+          "displayName": "06 Flatten binary tree to Linked list.cpp",
+          "type": "file",
+          "path": "data/LEC-66(Interview problems on Binary Trees)/06_Flatten_binary_tree_to_Linked_list.cpp",
+          "depth": 1
+        },
+        {
+          "name": "07_Time_to_be_Infected.cpp",
+          "displayName": "07 Time to be Infected.cpp",
+          "type": "file",
+          "path": "data/LEC-66(Interview problems on Binary Trees)/07_Time_to_be_Infected.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-67(Binary Search Trees)",
+      "displayName": "LEC-67(Binary Search Trees)",
+      "type": "directory",
+      "path": "data/LEC-67(Binary Search Trees)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Binary_Search_Tree.cpp",
+          "displayName": "01 Binary Search Tree.cpp",
+          "type": "file",
+          "path": "data/LEC-67(Binary Search Trees)/01_Binary_Search_Tree.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_Insert_BST.cpp",
+          "displayName": "02 Insert BST.cpp",
+          "type": "file",
+          "path": "data/LEC-67(Binary Search Trees)/02_Insert_BST.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Search_BST.cpp",
+          "displayName": "03 Search BST.cpp",
+          "type": "file",
+          "path": "data/LEC-67(Binary Search Trees)/03_Search_BST.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Delete_BST.cpp",
+          "displayName": "04 Delete BST.cpp",
+          "type": "file",
+          "path": "data/LEC-67(Binary Search Trees)/04_Delete_BST.cpp",
+          "depth": 1
+        },
+        {
+          "name": "05_Sorted_Array_to_Balanced_BST.cpp",
+          "displayName": "05 Sorted Array to Balanced BST.cpp",
+          "type": "file",
+          "path": "data/LEC-67(Binary Search Trees)/05_Sorted_Array_to_Balanced_BST.cpp",
+          "depth": 1
+        },
+        {
+          "name": "06_Lowest_Common_ancestor_BST.cpp",
+          "displayName": "06 Lowest Common ancestor BST.cpp",
+          "type": "file",
+          "path": "data/LEC-67(Binary Search Trees)/06_Lowest_Common_ancestor_BST.cpp",
+          "depth": 1
+        },
+        {
+          "name": "07_Remove_Leaf_Node_BST.cpp",
+          "displayName": "07 Remove Leaf Node BST.cpp",
+          "type": "file",
+          "path": "data/LEC-67(Binary Search Trees)/07_Remove_Leaf_Node_BST.cpp",
+          "depth": 1
+        },
+        {
+          "name": "08_Inorder_Pre_Succ_BST.cpp",
+          "displayName": "08 Inorder Pre Succ BST.cpp",
+          "type": "file",
+          "path": "data/LEC-67(Binary Search Trees)/08_Inorder_Pre_Succ_BST.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-68(Interview problems on Binary Search Trees)",
+      "displayName": "LEC-68(Interview problems on Binary Search Trees)",
+      "type": "directory",
+      "path": "data/LEC-68(Interview problems on Binary Search Trees)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Check_BST.cpp",
+          "displayName": "01 Check BST.cpp",
+          "type": "file",
+          "path": "data/LEC-68(Interview problems on Binary Search Trees)/01_Check_BST.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_Identical_BST.cpp",
+          "displayName": "02 Identical BST.cpp",
+          "type": "file",
+          "path": "data/LEC-68(Interview problems on Binary Search Trees)/02_Identical_BST.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Construct_BST_from_Preorder.cpp",
+          "displayName": "03 Construct BST from Preorder.cpp",
+          "type": "file",
+          "path": "data/LEC-68(Interview problems on Binary Search Trees)/03_Construct_BST_from_Preorder.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Max_Sum_BST_subtree-LC-Hard.cpp",
+          "displayName": "04 Max Sum BST subtree-LC-Hard.cpp",
+          "type": "file",
+          "path": "data/LEC-68(Interview problems on Binary Search Trees)/04_Max_Sum_BST_subtree-LC-Hard.cpp",
+          "depth": 1
+        },
+        {
+          "name": "05_Generate_BSTs.cpp",
+          "displayName": "05 Generate BSTs.cpp",
+          "type": "file",
+          "path": "data/LEC-68(Interview problems on Binary Search Trees)/05_Generate_BSTs.cpp",
+          "depth": 1
+        },
+        {
+          "name": "06_replace_with_Least_Greater_Element.cpp",
+          "displayName": "06 replace with Least Greater Element.cpp",
+          "type": "file",
+          "path": "data/LEC-68(Interview problems on Binary Search Trees)/06_replace_with_Least_Greater_Element.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-69(Generic Trees)",
+      "displayName": "LEC-69(Generic Trees)",
+      "type": "directory",
+      "path": "data/LEC-69(Generic Trees)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Generic_Trees.cpp",
+          "displayName": "01 Generic Trees.cpp",
+          "type": "file",
+          "path": "data/LEC-69(Generic Trees)/01_Generic_Trees.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_Depth_First_Traversal-DFS.cpp",
+          "displayName": "02 Depth First Traversal-DFS.cpp",
+          "type": "file",
+          "path": "data/LEC-69(Generic Trees)/02_Depth_First_Traversal-DFS.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Level_Order_Traversal-BFS.cpp",
+          "displayName": "03 Level Order Traversal-BFS.cpp",
+          "type": "file",
+          "path": "data/LEC-69(Generic Trees)/03_Level_Order_Traversal-BFS.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Just_Greater_Node.cpp",
+          "displayName": "04 Just Greater Node.cpp",
+          "type": "file",
+          "path": "data/LEC-69(Generic Trees)/04_Just_Greater_Node.cpp",
+          "depth": 1
+        },
+        {
+          "name": "05_Mirror_Tree.cpp",
+          "displayName": "05 Mirror Tree.cpp",
+          "type": "file",
+          "path": "data/LEC-69(Generic Trees)/05_Mirror_Tree.cpp",
+          "depth": 1
+        },
+        {
+          "name": "06_Serialize_Tree.cpp",
+          "displayName": "06 Serialize Tree.cpp",
+          "type": "file",
+          "path": "data/LEC-69(Generic Trees)/06_Serialize_Tree.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-70(Heaps)",
+      "displayName": "LEC-70(Heaps)",
+      "type": "directory",
+      "path": "data/LEC-70(Heaps)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Insertion_In_Min-Heap.cpp",
+          "displayName": "01 Insertion In Min-Heap.cpp",
+          "type": "file",
+          "path": "data/LEC-70(Heaps)/01_Insertion_In_Min-Heap.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_Insertion_In_Max-Heap.cpp",
+          "displayName": "02 Insertion In Max-Heap.cpp",
+          "type": "file",
+          "path": "data/LEC-70(Heaps)/02_Insertion_In_Max-Heap.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Deletion_In_Min-Heap.cpp",
+          "displayName": "03 Deletion In Min-Heap.cpp",
+          "type": "file",
+          "path": "data/LEC-70(Heaps)/03_Deletion_In_Min-Heap.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Deletion_In_Max-Heap.cpp",
+          "displayName": "04 Deletion In Max-Heap.cpp",
+          "type": "file",
+          "path": "data/LEC-70(Heaps)/04_Deletion_In_Max-Heap.cpp",
+          "depth": 1
+        },
+        {
+          "name": "05_Heapify.cpp",
+          "displayName": "05 Heapify.cpp",
+          "type": "file",
+          "path": "data/LEC-70(Heaps)/05_Heapify.cpp",
+          "depth": 1
+        },
+        {
+          "name": "06_Heap_Sort.cpp",
+          "displayName": "06 Heap Sort.cpp",
+          "type": "file",
+          "path": "data/LEC-70(Heaps)/06_Heap_Sort.cpp",
+          "depth": 1
+        },
+        {
+          "name": "07_merge_0_based.cpp",
+          "displayName": "07 merge 0 based.cpp",
+          "type": "file",
+          "path": "data/LEC-70(Heaps)/07_merge_0_based.cpp",
+          "depth": 1
+        },
+        {
+          "name": "07_merge_two_heaps.cpp",
+          "displayName": "07 merge two heaps.cpp",
+          "type": "file",
+          "path": "data/LEC-70(Heaps)/07_merge_two_heaps.cpp",
+          "depth": 1
+        },
+        {
+          "name": "08_find_kth_smallest.cpp",
+          "displayName": "08 find kth smallest.cpp",
+          "type": "file",
+          "path": "data/LEC-70(Heaps)/08_find_kth_smallest.cpp",
+          "depth": 1
+        },
+        {
+          "name": "09_sum_of_elements_btw_k1_k2.cpp",
+          "displayName": "09 sum of elements btw k1 k2.cpp",
+          "type": "file",
+          "path": "data/LEC-70(Heaps)/09_sum_of_elements_btw_k1_k2.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-71(Priority Queue)",
+      "displayName": "LEC-71(Priority Queue)",
+      "type": "directory",
+      "path": "data/LEC-71(Priority Queue)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Priority_Queue.cpp",
+          "displayName": "01 Priority Queue.cpp",
+          "type": "file",
+          "path": "data/LEC-71(Priority Queue)/01_Priority_Queue.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_find_k_th_largest.cpp",
+          "displayName": "02 find k th largest.cpp",
+          "type": "file",
+          "path": "data/LEC-71(Priority Queue)/02_find_k_th_largest.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_K_Closest_Points.cpp",
+          "displayName": "03 K Closest Points.cpp",
+          "type": "file",
+          "path": "data/LEC-71(Priority Queue)/03_K_Closest_Points.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Largest_Element_after_K_operations.cpp",
+          "displayName": "04 Largest Element after K operations.cpp",
+          "type": "file",
+          "path": "data/LEC-71(Priority Queue)/04_Largest_Element_after_K_operations.cpp",
+          "depth": 1
+        },
+        {
+          "name": "05_Least_Interval.cpp",
+          "displayName": "05 Least Interval.cpp",
+          "type": "file",
+          "path": "data/LEC-71(Priority Queue)/05_Least_Interval.cpp",
+          "depth": 1
+        },
+        {
+          "name": "06_Find_Median_from_Data_Stream.cpp",
+          "displayName": "06 Find Median from Data Stream.cpp",
+          "type": "file",
+          "path": "data/LEC-71(Priority Queue)/06_Find_Median_from_Data_Stream.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-72(Greedy Part-1)",
+      "displayName": "LEC-72(Greedy Part-1)",
+      "type": "directory",
+      "path": "data/LEC-72(Greedy Part-1)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Fractional_Knapsack.cpp",
+          "displayName": "01 Fractional Knapsack.cpp",
+          "type": "file",
+          "path": "data/LEC-72(Greedy Part-1)/01_Fractional_Knapsack.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_Maximum_Meeting_in_a_room.cpp",
+          "displayName": "02 Maximum Meeting in a room.cpp",
+          "type": "file",
+          "path": "data/LEC-72(Greedy Part-1)/02_Maximum_Meeting_in_a_room.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Activity_Selection.cpp",
+          "displayName": "03 Activity Selection.cpp",
+          "type": "file",
+          "path": "data/LEC-72(Greedy Part-1)/03_Activity_Selection.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Check_if_it_is_possible_to_survive_on_Island.cpp",
+          "displayName": "04 Check if it is possible to survive on Island.cpp",
+          "type": "file",
+          "path": "data/LEC-72(Greedy Part-1)/04_Check_if_it_is_possible_to_survive_on_Island.cpp",
+          "depth": 1
+        },
+        {
+          "name": "05_Maximum_Palindrome_Permutation.cpp",
+          "displayName": "05 Maximum Palindrome Permutation.cpp",
+          "type": "file",
+          "path": "data/LEC-72(Greedy Part-1)/05_Maximum_Palindrome_Permutation.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-73(Greedy Part-2)",
+      "displayName": "LEC-73(Greedy Part-2)",
+      "type": "directory",
+      "path": "data/LEC-73(Greedy Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Min_cost_to_cut_board.cpp",
+          "displayName": "01 Min cost to cut board.cpp",
+          "type": "file",
+          "path": "data/LEC-73(Greedy Part-2)/01_Min_cost_to_cut_board.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Smallest_Number.cpp",
+          "displayName": "03 Smallest Number.cpp",
+          "type": "file",
+          "path": "data/LEC-73(Greedy Part-2)/03_Smallest_Number.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Max_Profit_in_Job_Scheduling-Leetcode.cpp",
+          "displayName": "04 Max Profit in Job Scheduling-Leetcode.cpp",
+          "type": "file",
+          "path": "data/LEC-73(Greedy Part-2)/04_Max_Profit_in_Job_Scheduling-Leetcode.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-74(Dynamic Programming Part-1)",
+      "displayName": "LEC-74(Dynamic Programming Part-1)",
+      "type": "directory",
+      "path": "data/LEC-74(Dynamic Programming Part-1)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Fibonacci_DP.cpp",
+          "displayName": "01 Fibonacci DP.cpp",
+          "type": "file",
+          "path": "data/LEC-74(Dynamic Programming Part-1)/01_Fibonacci_DP.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_House_Robber.cpp",
+          "displayName": "02 House Robber.cpp",
+          "type": "file",
+          "path": "data/LEC-74(Dynamic Programming Part-1)/02_House_Robber.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-75(Dynamic Programming Part-2)",
+      "displayName": "LEC-75(Dynamic Programming Part-2)",
+      "type": "directory",
+      "path": "data/LEC-75(Dynamic Programming Part-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Decode_Ways-Leetcode.cpp",
+          "displayName": "01 Decode Ways-Leetcode.cpp",
+          "type": "file",
+          "path": "data/LEC-75(Dynamic Programming Part-2)/01_Decode_Ways-Leetcode.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_B-Frog_2-AtCoder.cpp",
+          "displayName": "02 B-Frog 2-AtCoder.cpp",
+          "type": "file",
+          "path": "data/LEC-75(Dynamic Programming Part-2)/02_B-Frog_2-AtCoder.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Coin_Combinations_2-CSES.cpp",
+          "displayName": "03 Coin Combinations 2-CSES.cpp",
+          "type": "file",
+          "path": "data/LEC-75(Dynamic Programming Part-2)/03_Coin_Combinations_2-CSES.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-76(Interview Problems on DP-1)",
+      "displayName": "LEC-76(Interview Problems on DP-1)",
+      "type": "directory",
+      "path": "data/LEC-76(Interview Problems on DP-1)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Triangle-Leetcode-120.cpp",
+          "displayName": "01 Triangle-Leetcode-120.cpp",
+          "type": "file",
+          "path": "data/LEC-76(Interview Problems on DP-1)/01_Triangle-Leetcode-120.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_Longest_Common_Subsequence-Leetcode-1143.cpp",
+          "displayName": "02 Longest Common Subsequence-Leetcode-1143.cpp",
+          "type": "file",
+          "path": "data/LEC-76(Interview Problems on DP-1)/02_Longest_Common_Subsequence-Leetcode-1143.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Longest_Increasing_Subsequence-Leeocode-300.cpp",
+          "displayName": "03 Longest Increasing Subsequence-Leeocode-300.cpp",
+          "type": "file",
+          "path": "data/LEC-76(Interview Problems on DP-1)/03_Longest_Increasing_Subsequence-Leeocode-300.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Matrix_Chain_Multiplication-GFG.cpp",
+          "displayName": "04 Matrix Chain Multiplication-GFG.cpp",
+          "type": "file",
+          "path": "data/LEC-76(Interview Problems on DP-1)/04_Matrix_Chain_Multiplication-GFG.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-77(Interview Problems on DP-2)",
+      "displayName": "LEC-77(Interview Problems on DP-2)",
+      "type": "directory",
+      "path": "data/LEC-77(Interview Problems on DP-2)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Unique_Paths_II-Leetcode-63.cpp",
+          "displayName": "01 Unique Paths II-Leetcode-63.cpp",
+          "type": "file",
+          "path": "data/LEC-77(Interview Problems on DP-2)/01_Unique_Paths_II-Leetcode-63.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_Minimum_Path_Sum-LC-64.cpp",
+          "displayName": "02 Minimum Path Sum-LC-64.cpp",
+          "type": "file",
+          "path": "data/LEC-77(Interview Problems on DP-2)/02_Minimum_Path_Sum-LC-64.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Partition_Equal_SubSet_Sum-LC-416.cpp",
+          "displayName": "03 Partition Equal SubSet Sum-LC-416.cpp",
+          "type": "file",
+          "path": "data/LEC-77(Interview Problems on DP-2)/03_Partition_Equal_SubSet_Sum-LC-416.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Unique_Binary_Search_Tree-LC-96.cpp",
+          "displayName": "04 Unique Binary Search Tree-LC-96.cpp",
+          "type": "file",
+          "path": "data/LEC-77(Interview Problems on DP-2)/04_Unique_Binary_Search_Tree-LC-96.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-78(Interview Problems on DP-3)",
+      "displayName": "LEC-78(Interview Problems on DP-3)",
+      "type": "directory",
+      "path": "data/LEC-78(Interview Problems on DP-3)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Regular_Expression_Matching-LC-10.cpp",
+          "displayName": "01 Regular Expression Matching-LC-10.cpp",
+          "type": "file",
+          "path": "data/LEC-78(Interview Problems on DP-3)/01_Regular_Expression_Matching-LC-10.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_House_Robber_III-LC-337.cpp",
+          "displayName": "02 House Robber III-LC-337.cpp",
+          "type": "file",
+          "path": "data/LEC-78(Interview Problems on DP-3)/02_House_Robber_III-LC-337.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Maximal_Rectangle-LC-85.cpp",
+          "displayName": "03 Maximal Rectangle-LC-85.cpp",
+          "type": "file",
+          "path": "data/LEC-78(Interview Problems on DP-3)/03_Maximal_Rectangle-LC-85.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-79(Graph Part-1)",
+      "displayName": "LEC-79(Graph Part-1)",
+      "type": "directory",
+      "path": "data/LEC-79(Graph Part-1)",
+      "depth": 0,
+      "children": []
+    },
+    {
+      "name": "LEC-80(Graphs Implementation)",
+      "displayName": "LEC-80(Graphs Implementation)",
+      "type": "directory",
+      "path": "data/LEC-80(Graphs Implementation)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Simple_Graph.cpp",
+          "displayName": "01 Simple Graph.cpp",
+          "type": "file",
+          "path": "data/LEC-80(Graphs Implementation)/01_Simple_Graph.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_Adjacency_List.cpp",
+          "displayName": "02 Adjacency List.cpp",
+          "type": "file",
+          "path": "data/LEC-80(Graphs Implementation)/02_Adjacency_List.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Weighted_Adjacency_List.cpp",
+          "displayName": "03 Weighted Adjacency List.cpp",
+          "type": "file",
+          "path": "data/LEC-80(Graphs Implementation)/03_Weighted_Adjacency_List.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Adjacency_Map.cpp",
+          "displayName": "04 Adjacency Map.cpp",
+          "type": "file",
+          "path": "data/LEC-80(Graphs Implementation)/04_Adjacency_Map.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-81(Graphs BFS And DFS)",
+      "displayName": "LEC-81(Graphs BFS And DFS)",
+      "type": "directory",
+      "path": "data/LEC-81(Graphs BFS And DFS)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_DFS_Any_Path.cpp",
+          "displayName": "01 DFS Any Path.cpp",
+          "type": "file",
+          "path": "data/LEC-81(Graphs BFS And DFS)/01_DFS_Any_Path.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_DFS_All_Path.cpp",
+          "displayName": "02 DFS All Path.cpp",
+          "type": "file",
+          "path": "data/LEC-81(Graphs BFS And DFS)/02_DFS_All_Path.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_BFS_Shortest_Path.cpp",
+          "displayName": "03 BFS Shortest Path.cpp",
+          "type": "file",
+          "path": "data/LEC-81(Graphs BFS And DFS)/03_BFS_Shortest_Path.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-82(Problems based on BFS and DFS)",
+      "displayName": "LEC-82(Problems based on BFS and DFS)",
+      "type": "directory",
+      "path": "data/LEC-82(Problems based on BFS and DFS)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Connected_Component.cpp",
+          "displayName": "01 Connected Component.cpp",
+          "type": "file",
+          "path": "data/LEC-82(Problems based on BFS and DFS)/01_Connected_Component.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_Number_of_Islands.cpp",
+          "displayName": "02 Number of Islands.cpp",
+          "type": "file",
+          "path": "data/LEC-82(Problems based on BFS and DFS)/02_Number_of_Islands.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-83(Graphs-Disjoint Set Union)",
+      "displayName": "LEC-83(Graphs-Disjoint Set Union)",
+      "type": "directory",
+      "path": "data/LEC-83(Graphs-Disjoint Set Union)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "DSU.cpp",
+          "displayName": "DSU.cpp",
+          "type": "file",
+          "path": "data/LEC-83(Graphs-Disjoint Set Union)/DSU.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-84(Topological Sorting and Cycle detection)",
+      "displayName": "LEC-84(Topological Sorting and Cycle detection)",
+      "type": "directory",
+      "path": "data/LEC-84(Topological Sorting and Cycle detection)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Kahn_Algorithm.cpp",
+          "displayName": "01 Kahn Algorithm.cpp",
+          "type": "file",
+          "path": "data/LEC-84(Topological Sorting and Cycle detection)/01_Kahn_Algorithm.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_Cycle_Detection.cpp",
+          "displayName": "02 Cycle Detection.cpp",
+          "type": "file",
+          "path": "data/LEC-84(Topological Sorting and Cycle detection)/02_Cycle_Detection.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Cycle_Detection_DSU.cpp",
+          "displayName": "03 Cycle Detection DSU.cpp",
+          "type": "file",
+          "path": "data/LEC-84(Topological Sorting and Cycle detection)/03_Cycle_Detection_DSU.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Cycle_Detection_DFS.cpp",
+          "displayName": "04 Cycle Detection DFS.cpp",
+          "type": "file",
+          "path": "data/LEC-84(Topological Sorting and Cycle detection)/04_Cycle_Detection_DFS.cpp",
+          "depth": 1
+        },
+        {
+          "name": "05_Cycle_Detection_BFS.cpp",
+          "displayName": "05 Cycle Detection BFS.cpp",
+          "type": "file",
+          "path": "data/LEC-84(Topological Sorting and Cycle detection)/05_Cycle_Detection_BFS.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Kahn_Algo.cpp",
+          "displayName": "Kahn Algo.cpp",
+          "type": "file",
+          "path": "data/LEC-84(Topological Sorting and Cycle detection)/Kahn_Algo.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-85(Kruskal & Prims Algorithms)",
+      "displayName": "LEC-85(Kruskal & Prims Algorithms)",
+      "type": "directory",
+      "path": "data/LEC-85(Kruskal & Prims Algorithms)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "01_Kruskal_MST_Really_Special_Subtree.cpp",
+          "displayName": "01 Kruskal MST Really Special Subtree.cpp",
+          "type": "file",
+          "path": "data/LEC-85(Kruskal & Prims Algorithms)/01_Kruskal_MST_Really_Special_Subtree.cpp",
+          "depth": 1
+        },
+        {
+          "name": "02_Connecting_cities_with_minimum_cost-LC-1135.cpp",
+          "displayName": "02 Connecting cities with minimum cost-LC-1135.cpp",
+          "type": "file",
+          "path": "data/LEC-85(Kruskal & Prims Algorithms)/02_Connecting_cities_with_minimum_cost-LC-1135.cpp",
+          "depth": 1
+        },
+        {
+          "name": "03_Prims_MST_Special_Subtree.cpp",
+          "displayName": "03 Prims MST Special Subtree.cpp",
+          "type": "file",
+          "path": "data/LEC-85(Kruskal & Prims Algorithms)/03_Prims_MST_Special_Subtree.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Fibonacci_Heap.cpp",
+          "displayName": "04 Fibonacci Heap.cpp",
+          "type": "file",
+          "path": "data/LEC-85(Kruskal & Prims Algorithms)/04_Fibonacci_Heap.cpp",
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "name": "LEC-86(Dijkstra's Algorithm)",
+      "displayName": "LEC-86(Dijkstra's Algorithm)",
+      "type": "directory",
+      "path": "data/LEC-86(Dijkstra's Algorithm)",
+      "depth": 0,
+      "children": [
+        {
+          "name": "03_Minimum_Cost_to_Make_at_Least_One_Valid_Path_in_a_Grid_LC-1368.cpp",
+          "displayName": "03 Minimum Cost to Make at Least One Valid Path in a Grid LC-1368.cpp",
+          "type": "file",
+          "path": "data/LEC-86(Dijkstra's Algorithm)/03_Minimum_Cost_to_Make_at_Least_One_Valid_Path_in_a_Grid_LC-1368.cpp",
+          "depth": 1
+        },
+        {
+          "name": "04_Bipartite_Graph-LC-785.cpp",
+          "displayName": "04 Bipartite Graph-LC-785.cpp",
+          "type": "file",
+          "path": "data/LEC-86(Dijkstra's Algorithm)/04_Bipartite_Graph-LC-785.cpp",
+          "depth": 1
+        },
+        {
+          "name": "bmssp.cpp",
+          "displayName": "bmssp.cpp",
+          "type": "file",
+          "path": "data/LEC-86(Dijkstra's Algorithm)/bmssp.cpp",
+          "depth": 1
+        },
+        {
+          "name": "Dijkstra_Algo.cpp",
+          "displayName": "Dijkstra Algo.cpp",
+          "type": "file",
+          "path": "data/LEC-86(Dijkstra's Algorithm)/Dijkstra_Algo.cpp",
+          "depth": 1
+        }
+      ]
+    }
+  ]
+}

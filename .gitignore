@@ -1,0 +1,87 @@
+# Build artifacts
+build/
+cmake-build-*/
+CMakeFiles/
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.lib
+*.pch
+*.pdb
+*.ilk
+*.exp
+*.manifest
+*.tmp
+*.log
+
+# Coverage / debug
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+coverage/
+
+# IDE / editor
+.vscode/
+.vscode-*/
+.idea/
+*.code-workspace
+*.suo
+*.user
+*.rsuser
+*.swp
+*~
+
+# OS generated
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+frontend/.vite/
+.webpack-cache/
+.npm/
+.pnp*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env & secrets
+.env
+.env.*
+frontend/.env*
+
+# Misc
+*.iml
+*.orig
+*.rej
+*.bak
+*.zip
+*.7z
+*.tar
+*.gz
+
+# VS build directories
+Debug/
+Release/
+x64/
+ARM/
+ARM64/
+*/Debug/
+*/Release/
