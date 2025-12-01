@@ -394,7 +394,8 @@ function createDetailView(node, summary, onChildSelect) {
     
     // Fetch content
     const encodedPath = encodeURI(node.path);
-    fetch(`/api/source/${encodedPath}`)
+    const sourceApiBase = `${import.meta.env.BASE_URL ?? '/'}api/source/`;
+    fetch(`${sourceApiBase}${encodedPath}`)
       .then(res => {
         if (!res.ok) throw new Error('Failed to load file');
         return res.text();

@@ -7,6 +7,12 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(__dirname, '..');
 const dataRoot = path.resolve(repoRoot, 'data');
 
+const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '';
+const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
+const isUserOrOrgSite = repoName && repoName.endsWith('.github.io');
+const defaultBase = isGithubActions && repoName && !isUserOrOrgSite ? `/${repoName}/` : '/';
+const base = process.env.VITE_BASE ?? defaultBase;
+
 function createSourceMiddleware() {
   return (req, res, next) => {
     try {
@@ -60,6 +66,7 @@ const serveSourcePlugin = {
 };
 
 export default defineConfig({
+  base,
   server: {
     open: true,
     port: 5173,
