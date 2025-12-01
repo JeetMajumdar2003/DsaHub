@@ -3,9 +3,14 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+const fsp = fs.promises;
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(__dirname, '..');
 const dataRoot = path.resolve(repoRoot, 'data');
+const distRoot = path.resolve(__dirname, 'dist');
+const distDataRoot = path.resolve(distRoot, 'data');
+const datasetFilename = 'codebase.json';
 
 const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '';
 const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
@@ -65,6 +70,43 @@ const serveSourcePlugin = {
   }
 };
 
+async function copyDataDirectoryToDist() {
+  if (!fs.existsSync(dataRoot)) {
+    console.warn('[serve-source] data directory not found; skipping static copy.');
+    return;
+  }
+
+  await fsp.mkdir(distRoot, { recursive: true });
+
+  const datasetPath = path.resolve(distDataRoot, datasetFilename);
+  let datasetBackup = null;
+
+  if (fs.existsSync(datasetPath)) {
+    datasetBackup = await fsp.readFile(datasetPath);
+  }
+
+  await fsp.rm(distDataRoot, { recursive: true, force: true });
+  await fsp.cp(dataRoot, distDataRoot, { recursive: true });
+
+  if (datasetBackup) {
+    await fsp.mkdir(path.dirname(datasetPath), { recursive: true });
+    await fsp.writeFile(datasetPath, datasetBackup);
+  }
+}
+
+const copyDataPlugin = {
+  name: 'copy-data-directory',
+  apply: 'build',
+  async closeBundle() {
+    try {
+      await copyDataDirectoryToDist();
+    } catch (error) {
+      console.error('Failed to copy data directory into build output:', error);
+      throw error;
+    }
+  }
+};
+
 export default defineConfig({
   base,
   server: {
@@ -74,7 +116,7 @@ export default defineConfig({
       allow: ['..']
     }
   },
-  plugins: [serveSourcePlugin],
+  plugins: [serveSourcePlugin, copyDataPlugin],
   resolve: {
     alias: {
       '@app': '/src/app',
