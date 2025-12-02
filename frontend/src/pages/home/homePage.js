@@ -394,12 +394,51 @@ function createDetailView(node, summary, onChildSelect) {
     
     // Fetch content
     const encodedPath = encodeURI(node.path);
-    const sourceApiBase = `${import.meta.env.BASE_URL ?? '/'}api/source/`;
-    fetch(`${sourceApiBase}${encodedPath}`)
-      .then(res => {
-        if (!res.ok) throw new Error('Failed to load file');
-        return res.text();
-      })
+    const basePath = import.meta.env.BASE_URL ?? '/';
+
+    const joinWithBase = (targetPath) => {
+      const normalizedBase = basePath.endsWith('/') ? basePath : `${basePath}/`;
+      const normalizedTarget = targetPath.replace(/^\/+/, '');
+      return `${normalizedBase}${normalizedTarget}`;
+    };
+
+    const staticUrl = joinWithBase(node.path);
+    const apiUrl = joinWithBase(`api/source/${encodedPath}`);
+
+    async function loadFile() {
+      const tryStatic = async () => {
+        const response = await fetch(staticUrl, {
+          headers: {
+            Accept: 'text/plain, text/*;q=0.9, */*;q=0.8'
+          }
+        });
+        if (!response.ok) {
+          throw new Error(`Static fetch failed (${response.status})`);
+        }
+        return response.text();
+      };
+
+      const tryApi = async () => {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+          throw new Error('Failed to load file');
+        }
+        return response.text();
+      };
+
+      if (import.meta.env.DEV) {
+        return tryApi();
+      }
+
+      try {
+        return await tryStatic();
+      } catch (staticError) {
+        console.warn(`Static fetch failed for ${node.path}:`, staticError);
+        return tryApi();
+      }
+    }
+
+    loadFile()
       .then(text => {
         currentCode = text;
         code.textContent = text;
