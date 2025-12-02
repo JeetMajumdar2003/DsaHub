@@ -123,7 +123,8 @@ export default defineConfig({
       '@pages': '/src/pages',
       '@widgets': '/src/widgets',
       '@features': '/src/features',
-      '@shared': '/src/shared'
+      '@shared': '/src/shared',
+      '@assets': '/src/assets'
     }
   },
   test: {

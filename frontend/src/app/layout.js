@@ -1,5 +1,6 @@
 import { createThemeToggle } from '@features/theme/themeToggle.js';
 import { createSearchInput } from '@features/search/searchInput.js';
+import logoUrl from '@assets/logo.svg';
 
 export function createAppShell({ onNavigate, onSearch }) {
   const shell = document.createElement('div');
@@ -7,15 +8,12 @@ export function createAppShell({ onNavigate, onSearch }) {
 
   // --- Sidebar ---
   const sidebar = document.createElement('aside');
-  sidebar.className = 'app-sidebar';
+  sidebar.className = 'app-sidebar collapsed';
 
   const brand = document.createElement('div');
   brand.className = 'sidebar-brand';
   brand.innerHTML = `
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-    </svg>
+    <img src="${logoUrl}" alt="DSA Atlas" width="24" height="24" />
     <span>DSA Atlas</span>
   `;
   brand.addEventListener('click', () => {
@@ -79,8 +77,8 @@ export function createAppShell({ onNavigate, onSearch }) {
   sidebarToggle.className = 'sidebar-toggle';
   sidebarToggle.title = 'Toggle Sidebar';
   sidebarToggle.innerHTML = `
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <polyline points="15 18 9 12 15 6"></polyline>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform: rotate(180deg);">
+      <polyline points="9 18 15 12 9 6"></polyline>
     </svg>
   `;
   sidebarToggle.addEventListener('click', () => {
@@ -125,10 +123,36 @@ export function createAppShell({ onNavigate, onSearch }) {
   header.append(mobileToggle, searchContainer, actions);
 
   // --- Content Viewport ---
+  const scrollContainer = document.createElement('div');
+  scrollContainer.className = 'app-scroll-container';
+
   const viewport = document.createElement('div');
   viewport.className = 'app-viewport';
 
-  main.append(header, viewport);
+  // --- Footer ---
+  const footer = document.createElement('footer');
+  footer.className = 'app-footer';
+  footer.innerHTML = `
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="https://github.com/JeetMajumdar2003" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/jeet-majumdar648/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        </a>
+        <a href="https://x.com/jeet_exist" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+        </a>
+      </div>
+      <div class="footer-copyright">
+        &copy; ${new Date().getFullYear()} DSA Atlas. All rights reserved.
+      </div>
+    </div>
+  `;
+
+  scrollContainer.append(viewport, footer);
+  main.append(header, scrollContainer);
   shell.append(sidebar, main);
 
   // Overlay for mobile sidebar
