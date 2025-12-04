@@ -6,11 +6,13 @@
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg?logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
 [![CI ready](https://img.shields.io/badge/CI-ready-success.svg)](#-project-roadmap)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/JeetMajumdar2003/DSA)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/JeetMajumdar2003/DsaHub)
 
 **Hands-on implementations, lecture notes, and interview-ready problem sets for mastering classic and modern DSA topics in C++.**
 
 </div>
+
+![Frontend preview](frontend/public/hero.png)
 
 ---
 
@@ -43,7 +45,7 @@ This repository follows the PW Skills DSA curriculum and extends it with product
 |------|--------------|
 | Algorithms | Classic + interview-focused problems with clean C++ implementations |
 | Complexity Guides | Time/space breakdowns and comparative tables |
-| Notes | "C++ Imp Notes" folder for quick language refreshers |
+| Notes | Lightweight annotations embedded within lecture files |
 | Frontend | Vite app for interactive demos and visualizations |
 | Templates | Issue, PR, contributing, conduct, support, and security policies |
 
@@ -53,16 +55,15 @@ This repository follows the PW Skills DSA curriculum and extends it with product
 
 ```
 DSA/
-├── C++ Imp Notes/        # Important C++ summaries
-├── docs/                 # PRDs, todos, and planning notes
-├── frontend/             # Vite-based visualization app
-├── LEC-XX(...)/          # Lecture-wise source code & binaries
+├── data/                 # Lecture-wise source, binaries, and samples under LEC-XX(...) folders
+├── frontend/             # Vite-based visualization app (public/hero.png demo)
 ├── LICENCE               # MIT license text
 ├── README.md             # You are here 📍
 ├── CONTRIBUTING.md       # How to contribute
 ├── CODE_OF_CONDUCT.md    # Community expectations
 ├── SECURITY.md           # Vulnerability policy
 ├── SUPPORT.md            # Getting help
+├── package-lock.json     # Dependency lockfile (frontend)
 └── .github/              # Issue & PR templates
 ```
 
@@ -82,8 +83,8 @@ DSA/
 ### Clone & Explore
 
 ```bash
-git clone https://github.com/JeetMajumdar2003/DSA.git
-cd DSA
+git clone https://github.com/JeetMajumdar2003/DsaHub.git
+cd DsaHub
 ```
 
 ### Build & Run a Sample C++ Program
@@ -99,10 +100,11 @@ g++ -std=c++17 Binary_Search_Algorithm.cpp -o binary_search
 ```bash
 cd frontend
 npm install
+npm run generate:data   # build public/data/codebase.json once per repo change
 npm run dev
 ```
 
-> See `frontend/README.md` for production builds, linting, and test commands.
+> See `frontend/README.md` for production builds, linting, formatting, and test commands. If you skip `npm run generate:data`, the explorer will warn about a missing dataset.
 
 ---
 
@@ -111,7 +113,7 @@ npm run dev
 - **Per-topic experiments:** compile and run any `.cpp` file directly; each file contains a `main()` entry point and descriptive comments.
 - **Homework/problem practice:** look for `Problems on ...` lecture folders for curated sets.
 - **Interactive view:** use the frontend to visualize algorithms and compare complexities.
-- **Notes revision:** skim `C++ Imp Notes/` before interviews for language refreshers.
+- **Notes revision:** refer to inline comments inside each lecture file for quick refreshers.
 
 ---
 
@@ -140,7 +142,7 @@ npm run dev
 - [ ] Expand documentation with video links per lecture.
 - [ ] Tag issues for "good first issue" to onboard contributors.
 
-See [open issues](https://github.com/JeetMajumdar2003/DSA/issues) for current priorities.
+See [open issues](https://github.com/JeetMajumdar2003/DsaHub/issues) for current priorities.
 
 ---
 

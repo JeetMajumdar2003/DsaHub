@@ -1,8 +1,8 @@
 {
   "summary": {
-    "generatedAt": "2025-12-01T21:32:43.479Z",
+    "generatedAt": "2025-12-04T19:50:00.608Z",
     "totals": {
-      "files": 415,
+      "files": 416,
       "directories": 89,
       "lectures": 85
     },
@@ -1017,7 +1017,7 @@
         "title": "Graph Part-1",
         "slug": "lec-79",
         "path": "data/LEC-79(Graph Part-1)",
-        "itemCount": 0,
+        "itemCount": 1,
         "keywords": [
           "graph",
           "part",
@@ -4589,7 +4589,15 @@
       "type": "directory",
       "path": "data/LEC-79(Graph Part-1)",
       "depth": 0,
-      "children": []
+      "children": [
+        {
+          "name": "graph.cpp",
+          "displayName": "graph.cpp",
+          "type": "file",
+          "path": "data/LEC-79(Graph Part-1)/graph.cpp",
+          "depth": 1
+        }
+      ]
     },
     {
       "name": "LEC-80(Graphs Implementation)",

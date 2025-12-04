@@ -1,6 +1,9 @@
-import { describe, expect, it } from 'vitest';
+import { act, render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import { createElement, useState } from 'react';
+import { describe, expect, it, vi } from 'vitest';
 
-import { createExplorerTree } from '../explorerTree.js';
+import { ExplorerTree } from '@widgets/explorer/ExplorerTree.jsx';
 
 const sampleTree = [
   {
@@ -21,109 +24,111 @@ const sampleTree = [
   }
 ];
 
-const multiBranchTree = [
-  {
-    name: 'alpha',
-    displayName: 'Alpha',
-    path: 'alpha',
-    type: 'directory',
-    depth: 0,
-    children: [
-      {
-        name: 'alpha-nested',
-        displayName: 'Alpha nested',
-        path: 'alpha/alpha-nested',
-        type: 'directory',
-        depth: 1,
-        children: [
-          {
-            name: 'alpha-file.md',
-            displayName: 'alpha-file.md',
-            path: 'alpha/alpha-nested/alpha-file.md',
-            type: 'file',
-            depth: 2
-          }
-        ]
+const emptyTree = [];
+
+function collectDirectories(nodes) {
+  const paths = new Set();
+  const stack = [...nodes];
+  while (stack.length) {
+    const node = stack.pop();
+    if (!node) continue;
+    if (node.type === 'directory') {
+      paths.add(node.path);
+      if (node.children) {
+        stack.push(...node.children);
       }
-    ]
-  },
-  {
-    name: 'beta',
-    displayName: 'Beta',
-    path: 'beta',
-    type: 'directory',
-    depth: 0,
-    children: [
-      {
-        name: 'beta-file.md',
-        displayName: 'beta-file.md',
-        path: 'beta/beta-file.md',
-        type: 'file',
-        depth: 1
-      }
-    ]
+    }
   }
-];
+  return paths;
+}
 
-describe('createExplorerTree', () => {
-  it('collapses and expands directory children when caret is clicked', () => {
-    const tree = createExplorerTree({ nodes: sampleTree, defaultSelection: 'root/child' });
-    document.body.append(tree.element);
+function ExplorerHarness({ nodes, onSelect }) {
+  const [collapsed, setCollapsed] = useState(() => collectDirectories(nodes));
+  const [selectedPath, setSelectedPath] = useState(null);
 
-    const queryChildrenContainer = () =>
-      tree.element.querySelector('[data-node-path="root"] > .tree-children');
-    const queryCaret = () =>
-      tree.element.querySelector('[data-node-path="root"] button.node-caret');
-
-    expect(queryChildrenContainer()?.hidden).toBe(true);
-    expect(queryCaret()?.getAttribute('aria-expanded')).toBe('false');
-
-    // Expand
-    queryCaret()?.click();
-    expect(queryChildrenContainer()?.hidden).toBe(false);
-    expect(queryCaret()?.getAttribute('aria-expanded')).toBe('true');
-
-    // Collapse
-    queryCaret()?.click();
-    expect(queryChildrenContainer()?.hidden).toBe(true);
-    expect(queryCaret()?.getAttribute('aria-expanded')).toBe('false');
-  });
-
-  it('collapses and expands entire tree via controls', () => {
-    const tree = createExplorerTree({ nodes: sampleTree, defaultSelection: 'root/child' });
-    document.body.append(tree.element);
-
-    const childrenContainer = () =>
-      tree.element.querySelector('[data-node-path="root"] > .tree-children');
-
-    tree.expandAll();
-    expect(childrenContainer()?.hidden).toBe(false);
-
-    tree.collapseAll();
-    expect(childrenContainer()?.hidden).toBe(true);
-
-    tree.expandAll();
-    expect(childrenContainer()?.hidden).toBe(false);
-  });
-
-  it('collapses directories that are not visible in the current render', () => {
-    const tree = createExplorerTree({
-      nodes: multiBranchTree,
-      defaultSelection: 'alpha/alpha-nested/alpha-file.md'
+  const handleToggle = (path) => {
+    setCollapsed((prev) => {
+      const next = new Set(prev);
+      if (next.has(path)) {
+        next.delete(path);
+      } else {
+        next.add(path);
+      }
+      return next;
     });
-    document.body.append(tree.element);
+  };
 
-    tree.render([multiBranchTree[0]]);
-    tree.collapseAll();
+  const handleSelect = (node) => {
+    setSelectedPath(node.path);
+    onSelect?.(node);
+  };
 
-    tree.render(multiBranchTree);
+  return createElement(ExplorerTree, {
+    nodes,
+    collapsedPaths: collapsed,
+    onToggleCollapse: handleToggle,
+    onSelect: handleSelect,
+    selectedPath
+  });
+}
 
-    const alphaChildren = () =>
-      tree.element.querySelector('[data-node-path="alpha"] > .tree-children');
-    const betaChildren = () =>
-      tree.element.querySelector('[data-node-path="beta"] > .tree-children');
+describe('ExplorerTree', () => {
+  it('collapses and expands directory children when caret is clicked', async () => {
+    const user = userEvent.setup();
+    await act(async () => {
+      render(createElement(ExplorerHarness, { nodes: sampleTree }));
+    });
 
-    expect(alphaChildren()?.hidden).toBe(true);
-    expect(betaChildren()?.hidden).toBe(true);
+    const container = document.querySelector('[data-node-path="root"] > .tree-children');
+    const caret = document.querySelector('[data-node-path="root"] button.node-caret');
+
+    expect(container).toBeTruthy();
+    expect(container?.hidden).toBe(true);
+    expect(caret).toHaveAttribute('aria-expanded', 'false');
+
+    await act(async () => {
+      await user.click(caret);
+    });
+    expect(container?.hidden).toBe(false);
+    expect(caret).toHaveAttribute('aria-expanded', 'true');
+
+    await act(async () => {
+      await user.click(caret);
+    });
+    expect(container?.hidden).toBe(true);
+    expect(caret).toHaveAttribute('aria-expanded', 'false');
+  });
+
+  it('invokes onSelect callback when a node is clicked', async () => {
+    const user = userEvent.setup();
+    const handleSelect = vi.fn();
+    await act(async () => {
+      render(createElement(ExplorerHarness, { nodes: sampleTree, onSelect: handleSelect }));
+    });
+
+    const row = document.querySelector('[data-node-path="root/child"] .tree-node');
+    await act(async () => {
+      await user.click(row);
+    });
+
+    expect(handleSelect).toHaveBeenCalledWith(
+      expect.objectContaining({ path: 'root/child', type: 'file' })
+    );
+  });
+
+  it('renders empty state when no nodes are provided', async () => {
+    await act(async () => {
+      render(
+        createElement(ExplorerTree, {
+          nodes: emptyTree,
+          collapsedPaths: new Set(),
+          onToggleCollapse: () => {},
+          onSelect: () => {},
+          selectedPath: null
+        })
+      );
+    });
+
+    expect(screen.getByText(/no matches/i)).toBeInTheDocument();
   });
 });

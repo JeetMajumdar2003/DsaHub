@@ -44,6 +44,14 @@ describe('search helpers', () => {
     expect(filtered[0].children[0].displayName).toBe('notes.txt');
   });
 
+  it('keeps entire directory subtree when directory matches', () => {
+    const filtered = filterTree(treeFixture, 'LEC-22');
+    expect(filtered).toHaveLength(1);
+    expect(filtered[0].isMatch).toBe(true);
+    expect(filtered[0].children).toHaveLength(1);
+    expect(filtered[0].children[0].displayName).toBe('notes.txt');
+  });
+
   it('highlights matched nodes', () => {
     const filtered = filterTree(treeFixture, 'recursion');
     const highlighted = highlightMatches(filtered);

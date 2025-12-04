@@ -1,6 +1,9 @@
-import { describe, expect, it, beforeEach, afterEach, vi } from 'vitest';
+import { act, render, screen, waitFor } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import { createElement } from 'react';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
-import { renderHomePage } from '../homePage.js';
+import { HomePage } from '@pages/home/HomePage.jsx';
 
 const baseSummary = {
   generatedAt: new Date().toISOString(),
@@ -63,67 +66,68 @@ const fileDataset = {
   ]
 };
 
-describe('renderHomePage', () => {
-  let root;
-  const originalFetch = global.fetch;
+describe('HomePage (React)', () => {
+  const originalFetch = globalThis.fetch;
+  let user;
 
   beforeEach(() => {
-    root = document.createElement('div');
-    root.id = 'root';
-    document.body.innerHTML = '';
-    document.body.append(root);
+    user = userEvent.setup();
   });
 
   afterEach(() => {
     vi.restoreAllMocks();
-    if (originalFetch) {
-      global.fetch = originalFetch;
+    if (typeof originalFetch !== 'undefined') {
+      globalThis.fetch = originalFetch;
     } else {
-      delete global.fetch;
+      delete globalThis.fetch;
     }
     delete navigator.clipboard;
-    document.body.innerHTML = '';
   });
 
-  it('renders hero/explorer and navigates to detail view on selection', () => {
-    renderHomePage(root, dataset);
+  it('renders hero and shows detail view after explorer selection', async () => {
+    await act(async () => {
+      render(createElement(HomePage, { dataset }));
+    });
 
-    expect(root.querySelector('.hero')).toBeTruthy();
-    expect(root.querySelector('.explorer')).toBeTruthy();
+    expect(await screen.findByText(/A calmer way to inspect/i)).toBeInTheDocument();
 
-    const search = root.querySelector('.search-panel input');
-    expect(search?.getAttribute('placeholder')).toContain('Search');
+    const lectureRow = document.querySelector('[data-node-path="LEC-01"] .tree-node');
+    await act(async () => {
+      await user.click(lectureRow);
+    });
 
-    const lectureRow = root.querySelector('[data-node-path="LEC-01"] .tree-node');
-    lectureRow?.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-
-    expect(root.querySelector('.detail-view')).toBeTruthy();
+    expect(await screen.findByRole('heading', { name: /LEC-01/i })).toBeInTheDocument();
   });
 
-  it('provides a copy button for file detail view', async () => {
+  it('copies file contents from detail view', async () => {
     const clipMock = vi.fn().mockResolvedValue();
-    navigator.clipboard = { writeText: clipMock };
-    global.fetch = vi.fn().mockResolvedValue({
+    Object.defineProperty(navigator, 'clipboard', {
+      configurable: true,
+      value: { writeText: clipMock }
+    });
+    globalThis.fetch = vi.fn().mockResolvedValue({
       ok: true,
       text: () => Promise.resolve('int main() {}')
     });
 
-    renderHomePage(root, fileDataset);
+    await act(async () => {
+      render(createElement(HomePage, { dataset: fileDataset }));
+    });
 
-    const fileRow = root.querySelector('[data-node-path="data/LEC-01/main.cpp"] .tree-node');
-    fileRow?.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+    const fileRow = document.querySelector('[data-node-path="data/LEC-01/main.cpp"] .tree-node');
+    await act(async () => {
+      await user.click(fileRow);
+    });
 
-    const flush = () => new Promise((resolve) => setTimeout(resolve, 0));
-    await flush();
+    const copyButton = await screen.findByRole('button', { name: /copy file contents/i });
+    await waitFor(() => expect(copyButton).not.toBeDisabled());
 
-    const copyButton = root.querySelector('.file-copy-btn');
-    expect(copyButton).toBeTruthy();
-    await flush();
-    expect(copyButton?.disabled).toBe(false);
+    await act(async () => {
+      await user.click(copyButton);
+    });
 
-    copyButton?.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-    await flush();
-
-    expect(clipMock).toHaveBeenCalledWith('int main() {}');
+    await waitFor(() => {
+      expect(clipMock).toHaveBeenCalledWith('int main() {}');
+    });
   });
 });

@@ -6,14 +6,31 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    }
   },
-  extends: ['eslint:recommended', 'plugin:import/recommended', 'prettier'],
-  plugins: ['import'],
+  extends: ['eslint:recommended', 'plugin:import/recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'prettier'],
+  plugins: ['import', 'react'],
   settings: {
+    react: {
+      version: 'detect'
+    },
     'import/resolver': {
       node: {
-        extensions: ['.js']
+        extensions: ['.js', '.jsx']
+      },
+      alias: {
+        map: [
+          ['@components', './src/components'],
+          ['@pages', './src/pages'],
+          ['@widgets', './src/widgets'],
+          ['@features', './src/features'],
+          ['@shared', './src/shared'],
+          ['@assets', './src/assets']
+        ],
+        extensions: ['.js', '.jsx']
       }
     }
   },
@@ -36,6 +53,9 @@ module.exports = {
         argsIgnorePattern: '^_',
         varsIgnorePattern: '^_'
       }
-    ]
+    ],
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-uses-react': 'off',
+    'react/prop-types': 'off'
   }
 };

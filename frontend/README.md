@@ -2,7 +2,7 @@
 
 Immersive single-page web application that celebrates the breadth of the C++ DSA learning repository. Built with Vite, modern vanilla JavaScript, and a feature-sliced architecture for maintainability.
 
-![Hero Screenshot](./assets/hero-placeholder.png)
+![Hero Screenshot](./public/hero.png)
 
 ## ✨ Highlights
 
@@ -12,21 +12,35 @@ Immersive single-page web application that celebrates the breadth of the C++ DSA
 - **Dynamic theming:** Light/dark mode respecting system preference with smooth toggles.
 - **Static-first:** Zero backend; data generated from the repository tree via script.
 
+## 🧰 Prerequisites
+
+- Node.js 18+ (ships with npm)
+
 ## 🧱 Project Structure
 
 ```
-web-app/
+frontend/
 ├── public/
-│   └── data/           # Generated dataset (codebase.json)
+│   ├── data/           # Generated dataset (codebase.json)
+│   ├── hero.png        # Hero image used in docs/screenshots
+│   └── sample.png      # Additional media asset
 ├── scripts/
 │   └── generate-codebase-data.mjs
 ├── src/
-│   ├── app/
+│   ├── assets/
+│   ├── components/
 │   ├── features/
 │   ├── pages/
 │   ├── shared/
-│   └── widgets/
-└── docs/
+│   ├── widgets/
+│   ├── styles.css
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── vitest.setup.js
 ```
 
 ## 🚀 Quickstart
@@ -88,23 +102,18 @@ The explorer reads from `public/data/codebase.json`. Refresh the dataset wheneve
 npm run generate:data
 ```
 
-> **Note:** Dataset generation excludes the `web-app` directory to avoid recursion.
+> **Note:** Dataset generation excludes the `frontend` directory to avoid recursion.
+
+## 🔧 Troubleshooting
+
+- **Missing dataset warning?** Run `npm run generate:data` to regenerate `public/data/codebase.json` after pulling new repository changes.
 
 ## 🛠️ Tech Stack
 
 - [Vite](https://vitejs.dev/) – lightning-fast bundler
-- Vanilla JS with ES modules – lightweight and flexible
+- React.js – component-based UI library
 - CSS custom properties, grids, flexbox for layout and theming
 - Vitest + JSDOM – testing environment
-
-## 📚 Documentation
-
-Product requirements and task tracking live under `docs/`:
-
-- `docs/prd/showcase-web-app.prd.md`
-- `docs/todos/showcase-web-app.todos.md`
-
-Stay in sync by updating the PRD/TODO after significant feature work.
 
 ## 📄 License
 
