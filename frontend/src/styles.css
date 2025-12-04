@@ -1,5 +1,5 @@
-@import '../shared/styles/reset.css';
-@import '../shared/styles/tokens.css';
+@import './shared/styles/reset.css';
+@import './shared/styles/tokens.css';
 
 html,
 body {
@@ -96,8 +96,31 @@ body {
   font-weight: 700;
   font-size: 1.1rem;
   color: var(--color-text);
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid transparent;
+  background: var(--color-surface);
+  border: none;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: inherit;
   cursor: pointer;
+  position: relative;
+}
+
+.sidebar-brand::after {
+  content: '';
+  position: absolute;
+  left: var(--space-lg);
+  right: var(--space-lg);
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-border-strong), transparent);
+  opacity: 0.7;
+}
+
+.sidebar-brand:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
 }
 
 .sidebar-nav {
@@ -274,7 +297,7 @@ body {
   display: flex;
   align-items: center;
   gap: var(--space-sm);
-  padding: 0.4rem var(--space-md);
+  padding: 0.2rem var(--space-md);
   border-radius: var(--radius-md);
   border: 1px solid var(--color-border);
   background: var(--color-card-muted);
@@ -287,9 +310,18 @@ body {
   box-shadow: 0 0 0 2px var(--color-accent-soft);
 }
 
-.search-panel span[aria-hidden='true'] {
-  font-size: 1.1rem;
+.search-panel__icon {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
   color: var(--color-text-muted);
+}
+
+.search-panel__icon svg {
+  display: block;
 }
 
 .search-panel input {
@@ -317,6 +349,7 @@ body {
   background: var(--color-surface);
   min-width: 1.2em;
   text-align: center;
+  line-height: 1;
 }
 
 /* Hero Section */
@@ -575,6 +608,8 @@ body {
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
   background: var(--color-card-muted);
+  text-align: left;
+  align-items: flex-start;
 }
 
 .rail-card__badge {
@@ -593,6 +628,7 @@ body {
 .rail-card h3 {
   margin: 0;
   font-size: 1.1rem;
+  text-align: left;
 }
 
 .rail-card code {
@@ -868,41 +904,46 @@ body {
 
 /* File Viewer */
 .file-viewer {
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--color-border);
-  background: var(--color-surface);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--code-block-border);
+  background: var(--code-block-bg);
+  color: var(--code-block-text);
   overflow: visible;
   position: relative;
+  box-shadow: var(--shadow-md);
 }
 
 .code-block {
   margin: 0;
-  padding: var(--space-lg);
+  padding: var(--space-xl);
   overflow-x: auto;
   font-family: var(--font-mono);
   font-size: 0.9rem;
   line-height: 1.5;
-  background: var(--color-surface); /* Override Prism default if needed */
+  background: var(--code-block-bg);
+  color: var(--code-block-text);
+  border-radius: inherit;
+  border: none;
 }
 
 .file-copy-btn {
   position: absolute;
-  top: var(--space-sm);
-  right: var(--space-sm);
-  width: 32px;
-  height: 32px;
-  border-radius: var(--radius-sm);
+  top: var(--space-md);
+  right: var(--space-md);
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md);
   border: 1px solid var(--color-border);
-  background: rgba(17, 24, 39, 0.65);
-  color: #fff;
+  background: var(--color-card-muted);
+  color: var(--color-text);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: all var(--transition-fast);
-  backdrop-filter: blur(6px);
   font-size: 0;
   z-index: 2;
+  box-shadow: var(--shadow-sm);
 }
 
 .file-copy-btn svg {
@@ -912,8 +953,9 @@ body {
 .file-copy-btn::after {
   content: attr(data-tooltip);
   position: absolute;
-  top: -32px;
+  bottom: calc(100% + var(--space-xs));
   right: 0;
+  transform-origin: bottom right;
   background: var(--color-surface);
   color: var(--color-text);
   font-size: 0.75rem;
@@ -935,7 +977,8 @@ body {
 }
 
 .file-copy-btn:hover {
-  background: rgba(17, 24, 39, 0.85);
+  background: var(--color-card-hover);
+  border-color: var(--color-border-strong);
 }
 
 .file-copy-btn:disabled {
@@ -945,12 +988,14 @@ body {
 
 .file-copy-btn.is-success {
   border-color: var(--color-accent);
-  background: rgba(16, 185, 129, 0.85);
+  background: var(--color-accent);
+  color: #fff;
 }
 
 .file-copy-btn.is-error {
   border-color: var(--color-danger);
-  background: rgba(239, 68, 68, 0.85);
+  background: var(--color-danger);
+  color: #fff;
 }
 
 /* Prism Overrides for Theme Consistency */

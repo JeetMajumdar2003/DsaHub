@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -116,10 +117,10 @@ export default defineConfig({
       allow: ['..']
     }
   },
-  plugins: [serveSourcePlugin, copyDataPlugin],
+  plugins: [react(), serveSourcePlugin, copyDataPlugin],
   resolve: {
     alias: {
-      '@app': '/src/app',
+      '@components': '/src/components',
       '@pages': '/src/pages',
       '@widgets': '/src/widgets',
       '@features': '/src/features',

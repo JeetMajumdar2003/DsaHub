@@ -1,4 +1,7 @@
+import '@testing-library/jest-dom/vitest';
 import { beforeEach } from 'vitest';
+
+globalThis.IS_REACT_ACT_ENVIRONMENT = true;
 
 globalThis.matchMedia =
   globalThis.matchMedia ||
